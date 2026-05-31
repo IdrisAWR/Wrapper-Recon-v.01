@@ -1,0 +1,64 @@
+=================================================================
+ AUTOMATED RECON WRAPPER — RINGKASAN HASIL
+=================================================================
+ Target       : google.com
+ Scan Time    : 2026-05-30 14:00:48 UTC
+=================================================================
+
+[ STATISTIK ]
+  Total subdomain ditemukan  : 51
+  Berhasil resolve (DNS)      : 51
+  Gagal resolve               : 0
+  Host aktif (HTTP/HTTPS)     : 40
+  Host tidak aktif            : 11
+  Tingkat keaktifan           : 78.43%
+
+[ DISTRIBUSI STATUS CODE ]
+  200  →  26x
+  400  →  2x
+  404  →  11x
+  429  →  1x
+
+[ SERVER TECHNOLOGIES ]
+  ESF  →  17x
+  sffe  →  7x
+  gws  →  1x
+  scholar  →  1x
+  Google Frontend  →  1x
+  scaffolding on HTTPServer2  →  1x
+  support-content-ui  →  1x
+
+[ HOST AKTIF MENARIK ]
+  [200] https://admanager.google.com  | Redirecting...  | ESF
+  [200] https://admob.google.com/home/  | Google AdMob - Earn More With Mobile App Monetizat  | sffe
+  [400] https://borgmon.evenflow.adz.google.com  | &Uuml;berProxy: Error 400
+  [200] https://www.google.com/  | Google  | gws
+  [200] https://about.google/  | About Google: Our products, technology and company  | sffe
+  [200] https://admanager.google.com/  | Redirecting...  | ESF
+  [200] https://scholar.google.com.br/  | Google Scholar  | scholar
+  [200] https://adsense.google.com/start/  | Google AdSense - Dapatkan Penghasilan dari Situs A  | sffe
+  [200] https://developers.google.com/assistant  | Google Assistant &nbsp;|&nbsp; Google for Develope  | Google Frontend
+  [200] https://accounts.google.com/v3/signin/identifier?continue=https://console.actions.google.com/&dsh=S1428118949:1780149605151929&followup=https://console.actions.google.com/&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2PavWlHV8PT_asyLMzF8RBLJx42LPSfaNesEdVIpR4bARtWh-OBSFY50lmVrSp5yRRjmdMMTF  | Sign in - Google Accounts  | ESF
+  [200] https://business.google.com/en-all/google-ads/  | Reach Customers &amp; Sell More with Online Advert  | ESF
+  [400] https://borgmon.evenflow-test.adz.google.com  | &Uuml;berProxy: Error 400
+  [200] https://accounts.google.com/v3/signin/identifier?continue=https://accounts.google.com/&dsh=S489121910:1780149605471369&followup=https://accounts.google.com/&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2Pas7ARrhF2V1GHuZwcLRUswfgi-Rwdy4Nla1xyPjcT9kUbqC6Fu1JhVx182lGJL2mhVJeo4-KA  | Sign in - Google Accounts  | ESF
+  [200] https://adstransparency.google.com  | ESF
+  [200] https://business.google.com/en-all/google-ads/  | Reach Customers &amp; Sell More with Online Advert  | ESF
+  [429] https://www.google.com/sorry/index?continue=https://admin.google.com/&q=EgRnqCwYGOfa69AGIjBadjHIvWTe9A0hrIt1RAcZpkb-R9ipIc_zAx24UIBCbyFpPf7kixtFOOPjQCZrvwwyBz5qY25kclJaAUM  | https://admin.google.com/  | scaffolding on HTTPServer2
+  [200] https://myactivity.google.com/  | Welcome to My Activity  | ESF
+  [200] https://accounts.google.com/v3/signin/identifier?continue=https://360suite.google.com/&dsh=S-485081497:1780149607462268&followup=https://360suite.google.com/&passive=1209600&service=analytics&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2Pasr9XDxKj2oNJM53OxEz_ZPkqba1nI_D-efCxh2RKfX8Sfb366dDLxMwxKVsX7F0G20BquzWg  | ESF
+  [200] https://accounts.google.com/v3/signin/identifier?continue=https://actionscenter.google.com/&dsh=S-318407234:1780149607150658&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2PashzCE5FhNjyeQEnLp5rVSzB_4iA3fWNnNuPg-XFAxM4lVMHP34HktTxD88U94g0Or15utC  | ESF
+  [200] https://support.google.com/adscreativestudio/answer/15572845  | support-content-ui
+  [200] https://one.google.com/about/  | Get More Storage, More AI capabilities, and More F  | sffe
+  [200] https://login.corp.google.com/request?authLevel=2000000&c=1&d=https://ads-nightly.qa.adz.google.com/?upxsrf%3DAM2vRLk31hFGfmyPeAOQ5UyF9Zm82Z-8QaYtGHI27jJogy_zfw%253A1780149608218&maxAge=1200&s=ads-nightly.qa.adz.google.com:443/uberproxy/  | ads-nightly.qa.adz.google.com - Google Single Sign  | ESF
+  [200] https://myaccount.google.com/intro/profile  | About me  | ESF
+  [200] https://www.google.com/account/about/?hl=en-US  | Learn More About Google's Secure and Protected Acc  | sffe
+  [200] https://business.google.com/en-all/google-ads/  | Reach Customers &amp; Sell More with Online Advert  | ESF
+  [200] https://login.corp.google.com/request?authLevel=2000000&c=1&d=https://frame.ads-nightly.qa.adz.google.com/?upxsrf%3DAM2vRLll1cf2T9eAGg9uojQFTCAq2oFnPnDWfPbs2TzWu2KkfA%253A1780149611061&maxAge=1200&s=frame.ads-nightly.qa.adz.google.com:443/uberproxy/  | frame.ads-nightly.qa.adz.google.com - Google Singl  | ESF
+  [200] https://login.corp.google.com/request?authLevel=2000000&c=1&d=https://frame.ads-devel.qa.adz.google.com/?upxsrf%3DAM2vRLmDF_G8KDDcFSzakpmzr429vbCaJFPg1-HKCCvkxqxizw%253A1780149611071&maxAge=1200&s=frame.ads-devel.qa.adz.google.com:443/uberproxy/  | frame.ads-devel.qa.adz.google.com - Google Single   | ESF
+  [200] https://business.google.com/en-all/google-ads/  | Reach Customers &amp; Sell More with Online Advert  | ESF
+  [200] https://accounts.google.com/v3/signin/identifier?continue=https://adsdatahub.google.com/&dsh=S1930403922:1780149611998795&followup=https://adsdatahub.google.com/&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2PauJ0SpOvWetWFfISzUHAF99hOxiBpfe8gGMIz04IIiVklzKAm-a0dPkGwbWnNF2lfm8wzby  | Sign in - Google Accounts  | ESF
+
+=================================================================
+  Laporan lengkap tersedia dalam file JSON.
+=================================================================

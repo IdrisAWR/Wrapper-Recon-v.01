@@ -1,0 +1,125 @@
+# Contoh custom wordlist — satu kata per baris
+# Baris yang diawali '#' diabaikan
+
+# Web Services
+www
+api
+app
+admin
+portal
+dashboard
+panel
+cpanel
+webmail
+mail
+smtp
+imap
+pop
+ftp
+
+# Development
+dev
+staging
+test
+beta
+alpha
+demo
+sandbox
+preview
+qa
+uat
+
+# Infrastructure
+ns1
+ns2
+dns
+mx
+vpn
+ssh
+rdp
+gateway
+proxy
+lb
+cdn
+static
+assets
+
+# Monitoring & Services
+monitor
+grafana
+kibana
+elastic
+prometheus
+alertmanager
+jenkins
+gitlab
+git
+ci
+cd
+
+# Databases
+db
+database
+mysql
+postgres
+mongodb
+redis
+memcached
+
+# Security & Auth
+auth
+sso
+oauth
+login
+secure
+id
+accounts
+signup
+register
+
+# API Versioning
+v1
+v2
+v3
+api2
+rest
+graphql
+grpc
+
+# Media & Content
+media
+images
+img
+video
+audio
+files
+uploads
+docs
+wiki
+blog
+news
+press
+shop
+store
+
+# Support & Communication
+support
+help
+chat
+meet
+forum
+community
+status
+health
+ping
+feedback
+contact
+
+# Internal
+internal
+intranet
+corp
+office
+hq
+local
+private

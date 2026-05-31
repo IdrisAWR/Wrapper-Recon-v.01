@@ -1,0 +1,2471 @@
+{
+  "meta": {
+    "tool": "Automated Recon Wrapper",
+    "version": "1.0.0",
+    "target_domain": "google.com",
+    "scan_timestamp": "2026-05-30T14:00:48.000870+00:00",
+    "output_dir": "D:\\Coba Project\\NyobaBuatTools\\test_output"
+  },
+  "statistics": {
+    "total_subdomains": 51,
+    "resolved_subdomains": 51,
+    "unresolved_subdomains": 0,
+    "live_hosts": 40,
+    "dead_hosts": 11,
+    "live_rate_percent": 78.43,
+    "status_code_distribution": {
+      "404": 11,
+      "200": 26,
+      "400": 2,
+      "429": 1
+    },
+    "server_distribution": {
+      "ESF": 17,
+      "sffe": 7,
+      "gws": 1,
+      "scholar": 1,
+      "Google Frontend": 1,
+      "scaffolding on HTTPServer2": 1,
+      "support-content-ui": 1
+    },
+    "risk_distribution": {
+      "not_found": 11,
+      "accessible": 26,
+      "other": 2,
+      "rate_limited": 1
+    },
+    "interesting_hosts": [
+      {
+        "url": "https://admanager.google.com",
+        "status": 200,
+        "title": "Redirecting...",
+        "server": "ESF",
+        "ip": "172.253.118.118"
+      },
+      {
+        "url": "https://admob.google.com/home/",
+        "status": 200,
+        "title": "Google AdMob - Earn More With Mobile App Monetization",
+        "server": "sffe",
+        "ip": "172.253.118.101"
+      },
+      {
+        "url": "https://borgmon.evenflow.adz.google.com",
+        "status": 400,
+        "title": "&Uuml;berProxy: Error 400",
+        "server": "",
+        "ip": "172.253.118.129"
+      },
+      {
+        "url": "https://www.google.com/",
+        "status": 200,
+        "title": "Google",
+        "server": "gws",
+        "ip": "172.253.118.113"
+      },
+      {
+        "url": "https://about.google/",
+        "status": 200,
+        "title": "About Google: Our products, technology and company information - About Google",
+        "server": "sffe",
+        "ip": "142.250.4.100"
+      },
+      {
+        "url": "https://admanager.google.com/",
+        "status": 200,
+        "title": "Redirecting...",
+        "server": "ESF",
+        "ip": "142.250.4.139"
+      },
+      {
+        "url": "https://scholar.google.com.br/",
+        "status": 200,
+        "title": "Google Scholar",
+        "server": "scholar",
+        "ip": "172.253.144.106"
+      },
+      {
+        "url": "https://adsense.google.com/start/",
+        "status": 200,
+        "title": "Google AdSense - Dapatkan Penghasilan dari Situs Anda dengan Monetisasi",
+        "server": "sffe",
+        "ip": "142.250.4.113"
+      },
+      {
+        "url": "https://developers.google.com/assistant",
+        "status": 200,
+        "title": "Google Assistant &nbsp;|&nbsp; Google for Developers",
+        "server": "Google Frontend",
+        "ip": "142.250.4.139"
+      },
+      {
+        "url": "https://accounts.google.com/v3/signin/identifier?continue=https://console.actions.google.com/&dsh=S1428118949:1780149605151929&followup=https://console.actions.google.com/&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2PavWlHV8PT_asyLMzF8RBLJx42LPSfaNesEdVIpR4bARtWh-OBSFY50lmVrSp5yRRjmdMMTF",
+        "status": 200,
+        "title": "Sign in - Google Accounts",
+        "server": "ESF",
+        "ip": "142.250.4.100"
+      },
+      {
+        "url": "https://business.google.com/en-all/google-ads/",
+        "status": 200,
+        "title": "Reach Customers &amp; Sell More with Online Advertising - Google Ads",
+        "server": "ESF",
+        "ip": "74.125.200.100"
+      },
+      {
+        "url": "https://borgmon.evenflow-test.adz.google.com",
+        "status": 400,
+        "title": "&Uuml;berProxy: Error 400",
+        "server": "",
+        "ip": "64.233.170.129"
+      },
+      {
+        "url": "https://accounts.google.com/v3/signin/identifier?continue=https://accounts.google.com/&dsh=S489121910:1780149605471369&followup=https://accounts.google.com/&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2Pas7ARrhF2V1GHuZwcLRUswfgi-Rwdy4Nla1xyPjcT9kUbqC6Fu1JhVx182lGJL2mhVJeo4-KA",
+        "status": 200,
+        "title": "Sign in - Google Accounts",
+        "server": "ESF",
+        "ip": "74.125.130.84"
+      },
+      {
+        "url": "https://adstransparency.google.com",
+        "status": 200,
+        "title": "",
+        "server": "ESF",
+        "ip": "74.125.68.113"
+      },
+      {
+        "url": "https://business.google.com/en-all/google-ads/",
+        "status": 200,
+        "title": "Reach Customers &amp; Sell More with Online Advertising - Google Ads",
+        "server": "ESF",
+        "ip": "74.125.24.101"
+      },
+      {
+        "url": "https://www.google.com/sorry/index?continue=https://admin.google.com/&q=EgRnqCwYGOfa69AGIjBadjHIvWTe9A0hrIt1RAcZpkb-R9ipIc_zAx24UIBCbyFpPf7kixtFOOPjQCZrvwwyBz5qY25kclJaAUM",
+        "status": 429,
+        "title": "https://admin.google.com/",
+        "server": "scaffolding on HTTPServer2",
+        "ip": "142.250.4.102"
+      },
+      {
+        "url": "https://myactivity.google.com/",
+        "status": 200,
+        "title": "Welcome to My Activity",
+        "server": "ESF",
+        "ip": "74.125.24.139"
+      },
+      {
+        "url": "https://accounts.google.com/v3/signin/identifier?continue=https://360suite.google.com/&dsh=S-485081497:1780149607462268&followup=https://360suite.google.com/&passive=1209600&service=analytics&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2Pasr9XDxKj2oNJM53OxEz_ZPkqba1nI_D-efCxh2RKfX8Sfb366dDLxMwxKVsX7F0G20BquzWg",
+        "status": 200,
+        "title": "",
+        "server": "ESF",
+        "ip": "142.250.4.139"
+      },
+      {
+        "url": "https://accounts.google.com/v3/signin/identifier?continue=https://actionscenter.google.com/&dsh=S-318407234:1780149607150658&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2PashzCE5FhNjyeQEnLp5rVSzB_4iA3fWNnNuPg-XFAxM4lVMHP34HktTxD88U94g0Or15utC",
+        "status": 200,
+        "title": "",
+        "server": "ESF",
+        "ip": "142.251.10.139"
+      },
+      {
+        "url": "https://support.google.com/adscreativestudio/answer/15572845",
+        "status": 200,
+        "title": "",
+        "server": "support-content-ui",
+        "ip": "74.125.130.138"
+      },
+      {
+        "url": "https://one.google.com/about/",
+        "status": 200,
+        "title": "Get More Storage, More AI capabilities, and More Features - Google One",
+        "server": "sffe",
+        "ip": "142.250.4.113"
+      },
+      {
+        "url": "https://login.corp.google.com/request?authLevel=2000000&c=1&d=https://ads-nightly.qa.adz.google.com/?upxsrf%3DAM2vRLk31hFGfmyPeAOQ5UyF9Zm82Z-8QaYtGHI27jJogy_zfw%253A1780149608218&maxAge=1200&s=ads-nightly.qa.adz.google.com:443/uberproxy/",
+        "status": 200,
+        "title": "ads-nightly.qa.adz.google.com - Google Single Sign On: Sign into corp",
+        "server": "ESF",
+        "ip": "74.125.200.129"
+      },
+      {
+        "url": "https://myaccount.google.com/intro/profile",
+        "status": 200,
+        "title": "About me",
+        "server": "ESF",
+        "ip": "142.251.12.113"
+      },
+      {
+        "url": "https://www.google.com/account/about/?hl=en-US",
+        "status": 200,
+        "title": "Learn More About Google's Secure and Protected Accounts - Google",
+        "server": "sffe",
+        "ip": "142.250.4.101"
+      },
+      {
+        "url": "https://business.google.com/en-all/google-ads/",
+        "status": 200,
+        "title": "Reach Customers &amp; Sell More with Online Advertising - Google Ads",
+        "server": "ESF",
+        "ip": "74.125.200.102"
+      },
+      {
+        "url": "https://login.corp.google.com/request?authLevel=2000000&c=1&d=https://frame.ads-nightly.qa.adz.google.com/?upxsrf%3DAM2vRLll1cf2T9eAGg9uojQFTCAq2oFnPnDWfPbs2TzWu2KkfA%253A1780149611061&maxAge=1200&s=frame.ads-nightly.qa.adz.google.com:443/uberproxy/",
+        "status": 200,
+        "title": "frame.ads-nightly.qa.adz.google.com - Google Single Sign On: Sign into corp",
+        "server": "ESF",
+        "ip": "74.125.68.129"
+      },
+      {
+        "url": "https://login.corp.google.com/request?authLevel=2000000&c=1&d=https://frame.ads-devel.qa.adz.google.com/?upxsrf%3DAM2vRLmDF_G8KDDcFSzakpmzr429vbCaJFPg1-HKCCvkxqxizw%253A1780149611071&maxAge=1200&s=frame.ads-devel.qa.adz.google.com:443/uberproxy/",
+        "status": 200,
+        "title": "frame.ads-devel.qa.adz.google.com - Google Single Sign On: Sign into corp",
+        "server": "ESF",
+        "ip": "172.253.118.129"
+      },
+      {
+        "url": "https://business.google.com/en-all/google-ads/",
+        "status": 200,
+        "title": "Reach Customers &amp; Sell More with Online Advertising - Google Ads",
+        "server": "ESF",
+        "ip": "74.125.24.100"
+      },
+      {
+        "url": "https://accounts.google.com/v3/signin/identifier?continue=https://adsdatahub.google.com/&dsh=S1930403922:1780149611998795&followup=https://adsdatahub.google.com/&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2PauJ0SpOvWetWFfISzUHAF99hOxiBpfe8gGMIz04IIiVklzKAm-a0dPkGwbWnNF2lfm8wzby",
+        "status": 200,
+        "title": "Sign in - Google Accounts",
+        "server": "ESF",
+        "ip": "172.253.144.113"
+      }
+    ]
+  },
+  "subdomains": [
+    {
+      "subdomain": "ads.google.com",
+      "ip": "74.125.24.101",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "google.com",
+      "ip": "172.253.118.113",
+      "resolved": true,
+      "source": "passive"
+    },
+    {
+      "subdomain": "aa.google.com",
+      "ip": "142.250.4.101",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "adviser.google.com",
+      "ip": "142.250.4.138",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "actionscenter.google.com",
+      "ip": "142.251.10.139",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "adwords.google.com",
+      "ip": "74.125.200.100",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "216-239-45-32.google.com",
+      "ip": "216.239.45.32",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "about.google.com",
+      "ip": "142.250.4.100",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "216-239-45-63.google.com",
+      "ip": "216.239.45.63",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "adwords-sandbox.google.com",
+      "ip": "142.250.4.101",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "mtls.accounts.google.com",
+      "ip": "74.125.68.84",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "captive.adservice.google.com",
+      "ip": "216.239.32.220",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "360suite.google.com",
+      "ip": "142.250.4.139",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "216-239-45-6.google.com",
+      "ip": "216.239.45.6",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "accelerator.google.com",
+      "ip": "172.253.118.139",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "216-239-45-4.google.com",
+      "ip": "216.239.45.4",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "admob.google.com",
+      "ip": "172.253.118.101",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "adscreativestudio.google.com",
+      "ip": "74.125.130.138",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "adplanner.google.com",
+      "ip": "142.250.4.113",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "academico.google.com",
+      "ip": "172.253.144.106",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "console.actions.google.com",
+      "ip": "142.250.4.100",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "accounts.google.com",
+      "ip": "74.125.130.84",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "admanager.google.com",
+      "ip": "172.253.118.118",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "borgmon.evenflow.adz.google.com",
+      "ip": "172.253.118.129",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "adstransparency.google.com",
+      "ip": "74.125.68.113",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "216-239-45-8.google.com",
+      "ip": "216.239.45.8",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "ads1.google.com",
+      "ip": "74.125.24.138",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "actions.google.com",
+      "ip": "142.250.4.139",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "adsense.google.com",
+      "ip": "142.250.4.113",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "adx.google.com",
+      "ip": "142.250.4.139",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "adsdatahub.google.com",
+      "ip": "172.253.144.113",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "borgmon.evenflow-test.adz.google.com",
+      "ip": "64.233.170.129",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "actualities.google.com",
+      "ip": "142.250.4.100",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "216-239-45-10.google.com",
+      "ip": "216.239.45.10",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "adservice.google.com",
+      "ip": "74.125.200.156",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "account.google.com",
+      "ip": "142.250.4.101",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "admin.google.com",
+      "ip": "142.250.4.102",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "adssettings.google.com",
+      "ip": "142.250.4.139",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "activity.google.com",
+      "ip": "74.125.24.139",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "1.google.com",
+      "ip": "142.250.4.113",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "216-239-33-25.google.com",
+      "ip": "216.239.33.25",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "66-102-14-1.google.com",
+      "ip": "66.102.14.1",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "aboutme.google.com",
+      "ip": "142.251.12.113",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "ads-nightly.qa.adz.google.com",
+      "ip": "74.125.200.129",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "advisor.google.com",
+      "ip": "142.250.4.113",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "216-239-45-33.google.com",
+      "ip": "216.239.45.33",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "www.adwords.google.com",
+      "ip": "74.125.200.102",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "216-239-45-36.google.com",
+      "ip": "216.239.45.36",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "www.ads.google.com",
+      "ip": "74.125.24.100",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "frame.ads-devel.qa.adz.google.com",
+      "ip": "172.253.118.129",
+      "resolved": true,
+      "source": "bruteforce"
+    },
+    {
+      "subdomain": "frame.ads-nightly.qa.adz.google.com",
+      "ip": "74.125.68.129",
+      "resolved": true,
+      "source": "bruteforce"
+    }
+  ],
+  "http_probes": [
+    {
+      "subdomain": "captive.adservice.google.com",
+      "ip": "216.239.32.220",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://captive.adservice.google.com",
+          "final_url": "https://captive.adservice.google.com",
+          "status_code": 404,
+          "risk_tag": "not_found",
+          "title": "Error 404 (Not Found)!!1",
+          "server": "",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 219,
+          "redirect_chain": [],
+          "redirected": false,
+          "content_length": "1561",
+          "headers": {
+            "Content-Type": "text/html; charset=UTF-8",
+            "Referrer-Policy": "no-referrer",
+            "Content-Length": "1561",
+            "Date": "Sat, 30 May 2026 14:00:04 GMT",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://captive.adservice.google.com",
+      "best_status": 404,
+      "best_title": "Error 404 (Not Found)!!1",
+      "best_server": ""
+    },
+    {
+      "subdomain": "mtls.accounts.google.com",
+      "ip": "74.125.68.84",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://mtls.accounts.google.com",
+          "final_url": "https://mtls.accounts.google.com",
+          "status_code": 404,
+          "risk_tag": "not_found",
+          "title": "Error 404 (Not Found)!!1",
+          "server": "",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 219,
+          "redirect_chain": [],
+          "redirected": false,
+          "content_length": "1561",
+          "headers": {
+            "Content-Type": "text/html; charset=UTF-8",
+            "Referrer-Policy": "no-referrer",
+            "Content-Length": "1561",
+            "Date": "Sat, 30 May 2026 14:00:04 GMT"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://mtls.accounts.google.com",
+      "best_status": 404,
+      "best_title": "Error 404 (Not Found)!!1",
+      "best_server": ""
+    },
+    {
+      "subdomain": "aa.google.com",
+      "ip": "142.250.4.101",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://aa.google.com",
+          "final_url": "https://aa.google.com",
+          "status_code": 404,
+          "risk_tag": "not_found",
+          "title": "Error 404 (Not Found)!!1",
+          "server": "",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 235,
+          "redirect_chain": [],
+          "redirected": false,
+          "content_length": "1561",
+          "headers": {
+            "Content-Type": "text/html; charset=UTF-8",
+            "Referrer-Policy": "no-referrer",
+            "Content-Length": "1561",
+            "Date": "Sat, 30 May 2026 14:00:04 GMT",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://aa.google.com",
+      "best_status": 404,
+      "best_title": "Error 404 (Not Found)!!1",
+      "best_server": ""
+    },
+    {
+      "subdomain": "adwords-sandbox.google.com",
+      "ip": "142.250.4.101",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://adwords-sandbox.google.com",
+          "final_url": "https://adwords-sandbox.google.com",
+          "status_code": 404,
+          "risk_tag": "not_found",
+          "title": "Error 404 (Not Found)!!1",
+          "server": "",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 313,
+          "redirect_chain": [],
+          "redirected": false,
+          "content_length": "1561",
+          "headers": {
+            "Content-Type": "text/html; charset=UTF-8",
+            "Referrer-Policy": "no-referrer",
+            "Content-Length": "1561",
+            "Date": "Sat, 30 May 2026 14:00:04 GMT",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://adwords-sandbox.google.com",
+      "best_status": 404,
+      "best_title": "Error 404 (Not Found)!!1",
+      "best_server": ""
+    },
+    {
+      "subdomain": "adviser.google.com",
+      "ip": "142.250.4.138",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://adviser.google.com",
+          "final_url": "https://www.google.com/advisor",
+          "status_code": 404,
+          "risk_tag": "not_found",
+          "title": "Error 404 (Not Found)!!1",
+          "server": "sffe",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 313,
+          "redirect_chain": [
+            "https://adviser.google.com"
+          ],
+          "redirected": true,
+          "content_length": "1568",
+          "headers": {
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "Content-Type": "text/html; charset=UTF-8",
+            "X-Content-Type-Options": "nosniff",
+            "Date": "Sat, 30 May 2026 14:00:04 GMT",
+            "Server": "sffe",
+            "Content-Length": "1568",
+            "X-XSS-Protection": "0",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://www.google.com/advisor",
+      "best_status": 404,
+      "best_title": "Error 404 (Not Found)!!1",
+      "best_server": "sffe"
+    },
+    {
+      "subdomain": "accelerator.google.com",
+      "ip": "172.253.118.139",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://accelerator.google.com",
+          "final_url": "https://accelerator.google.com",
+          "status_code": 404,
+          "risk_tag": "not_found",
+          "title": "Error 404 (Not Found)!!1",
+          "server": "",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 313,
+          "redirect_chain": [],
+          "redirected": false,
+          "content_length": "1561",
+          "headers": {
+            "Content-Type": "text/html; charset=UTF-8",
+            "Referrer-Policy": "no-referrer",
+            "Content-Length": "1561",
+            "Date": "Sat, 30 May 2026 14:00:04 GMT",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://accelerator.google.com",
+      "best_status": 404,
+      "best_title": "Error 404 (Not Found)!!1",
+      "best_server": ""
+    },
+    {
+      "subdomain": "admanager.google.com",
+      "ip": "172.253.118.118",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://admanager.google.com",
+          "final_url": "https://admanager.google.com",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "Redirecting...",
+          "server": "ESF",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 187,
+          "redirect_chain": [],
+          "redirected": false,
+          "content_length": "",
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+            "x-robots-tag": "noindex",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+            "Date": "Sat, 30 May 2026 14:00:04 GMT",
+            "x-trace-id": "-6870451537011821591",
+            "acx-server-start-time": "1780149604893",
+            "acx-server-time": "3",
+            "Server-Timing": "server-processing;dur=3",
+            "Cross-Origin-Resource-Policy": "same-site",
+            "Report-To": "{\"group\":\"encsid_AZSwq6M5umT0lCfhVb7yLdPbFA6eQtax2miV68-cPUU\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/encsid_AZSwq6M5umT0lCfhVb7yLdPbFA6eQtax2miV68-cPUU\"}]}",
+            "Cross-Origin-Opener-Policy": "same-origin-allow-popups; report-to=\"encsid_AZSwq6M5umT0lCfhVb7yLdPbFA6eQtax2miV68-cPUU\"",
+            "Content-Security-Policy": "base-uri 'self';object-src 'none';report-uri https://csp.withgoogle.com/csp/drx-fe-prod/1;script-src 'report-sample' 'nonce-oLdwhXe78TEV6-YO_wcD2Q' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';worker-src 'self' blob:",
+            "Content-Encoding": "gzip",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Content-Type-Options": "nosniff",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://admanager.google.com",
+      "best_status": 200,
+      "best_title": "Redirecting...",
+      "best_server": "ESF"
+    },
+    {
+      "subdomain": "admob.google.com",
+      "ip": "172.253.118.101",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://admob.google.com",
+          "final_url": "https://admob.google.com/home/",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "Google AdMob - Earn More With Mobile App Monetization",
+          "server": "sffe",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 359,
+          "redirect_chain": [
+            "https://admob.google.com"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Accept-Ranges": "bytes",
+            "Vary": "Accept-Encoding",
+            "Content-Type": "text/html",
+            "Content-Security-Policy": "script-src  'nonce-VLRO0npz-p8Ztms2Rlz6kg' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/admob_google_com; base-uri 'self'",
+            "Content-Security-Policy-Report-Only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/admob_google_com",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "Cross-Origin-Opener-Policy-Report-Only": "same-origin; report-to=\"uxe-owners-acl/admob_google_com\"",
+            "Report-To": "{\"group\":\"uxe-owners-acl/admob_google_com\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/uxe-owners-acl/admob_google_com\"}]}",
+            "Date": "Sat, 30 May 2026 14:00:04 GMT",
+            "Pragma": "no-cache",
+            "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+            "Cache-Control": "no-cache, must-revalidate",
+            "Last-Modified": "Mon, 30 Mar 2026 07:28:00 GMT",
+            "X-Content-Type-Options": "nosniff",
+            "Content-Encoding": "gzip",
+            "Server": "sffe",
+            "X-XSS-Protection": "0",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://admob.google.com/home/",
+      "best_status": 200,
+      "best_title": "Google AdMob - Earn More With Mobile App Monetization",
+      "best_server": "sffe"
+    },
+    {
+      "subdomain": "borgmon.evenflow.adz.google.com",
+      "ip": "172.253.118.129",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://borgmon.evenflow.adz.google.com",
+          "final_url": "https://borgmon.evenflow.adz.google.com",
+          "status_code": 400,
+          "risk_tag": "other",
+          "title": "&Uuml;berProxy: Error 400",
+          "server": "",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 250,
+          "redirect_chain": [],
+          "redirected": false,
+          "content_length": "14231",
+          "headers": {
+            "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+            "Pragma": "no-cache",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "X-UberProxy-Code": "4036",
+            "Content-Type": "text/html; charset=UTF-8",
+            "Content-Length": "14231",
+            "Accept-CH": "Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64",
+            "Permissions-Policy": "ch-ua=*, ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-mobile=*, ch-ua-model=*, ch-ua-platform=*, ch-ua-platform-version=*, ch-ua-wow64=*",
+            "Date": "Sat, 30 May 2026 14:00:05 GMT",
+            "Cross-Origin-Opener-Policy-Report-Only": "same-origin; report-to=\"gfe-l2-uberproxy\"",
+            "Report-To": "{\"group\":\"gfe-l2-uberproxy\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/l2-uberproxy\"}]}"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://borgmon.evenflow.adz.google.com",
+      "best_status": 400,
+      "best_title": "&Uuml;berProxy: Error 400",
+      "best_server": ""
+    },
+    {
+      "subdomain": "google.com",
+      "ip": "172.253.118.113",
+      "source": "passive",
+      "probes": [
+        {
+          "url": "https://google.com",
+          "final_url": "https://www.google.com/",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "Google",
+          "server": "gws",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 313,
+          "redirect_chain": [
+            "https://google.com"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Content-Type": "text/html; charset=UTF-8",
+            "Date": "Sat, 30 May 2026 14:00:04 GMT",
+            "Expires": "-1",
+            "Cache-Control": "private, max-age=0",
+            "Link": "</shared_dict/homepage/ff7d0e05d5dda1a8909ce5af99a88dcf6be388e72040a46890f0607bbe74c914.dict>; rel=\"compression-dictionary\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "Content-Security-Policy-Report-Only": "object-src 'none';base-uri 'self';script-src 'nonce-c7t6pc14zNrmIPU94W1uwA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp",
+            "Cross-Origin-Opener-Policy": "same-origin-allow-popups; report-to=\"gws\"",
+            "Report-To": "{\"group\":\"gws\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/gws/other\"}]}",
+            "Accept-CH": "Sec-CH-Prefers-Color-Scheme",
+            "Permissions-Policy": "unload=()",
+            "P3P": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+            "Content-Encoding": "gzip",
+            "Server": "gws",
+            "X-XSS-Protection": "0",
+            "X-Frame-Options": "SAMEORIGIN",
+            "Set-Cookie": "__Secure-STRP=ANmZwa2F-yi7WgBbdx0IgzcrIMK2lwYvn34E2aUZ22gkP6Yd9PSxnSVSI_MfAi87SNU7YlnAXxovPG_07XCfTOsJMirJcLbR6Jcl; expires=Sat, 30-May-2026 14:05:04 GMT; path=/; domain=.google.com; Secure; SameSite=strict",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://www.google.com/",
+      "best_status": 200,
+      "best_title": "Google",
+      "best_server": "gws"
+    },
+    {
+      "subdomain": "adplanner.google.com",
+      "ip": "142.250.4.113",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://adplanner.google.com",
+          "final_url": "https://adplanner.google.com",
+          "status_code": 404,
+          "risk_tag": "not_found",
+          "title": "Error 404 (Not Found)!!1",
+          "server": "",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 594,
+          "redirect_chain": [],
+          "redirected": false,
+          "content_length": "1561",
+          "headers": {
+            "Content-Type": "text/html; charset=UTF-8",
+            "Referrer-Policy": "no-referrer",
+            "Content-Length": "1561",
+            "Date": "Sat, 30 May 2026 14:00:05 GMT",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://adplanner.google.com",
+      "best_status": 404,
+      "best_title": "Error 404 (Not Found)!!1",
+      "best_server": ""
+    },
+    {
+      "subdomain": "ads1.google.com",
+      "ip": "74.125.24.138",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://ads1.google.com",
+          "final_url": "https://ads1.google.com",
+          "status_code": 404,
+          "risk_tag": "not_found",
+          "title": "Error 404 (Not Found)!!1",
+          "server": "",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 437,
+          "redirect_chain": [],
+          "redirected": false,
+          "content_length": "1561",
+          "headers": {
+            "Content-Type": "text/html; charset=UTF-8",
+            "Referrer-Policy": "no-referrer",
+            "Content-Length": "1561",
+            "Date": "Sat, 30 May 2026 14:00:05 GMT",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://ads1.google.com",
+      "best_status": 404,
+      "best_title": "Error 404 (Not Found)!!1",
+      "best_server": ""
+    },
+    {
+      "subdomain": "about.google.com",
+      "ip": "142.250.4.100",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://about.google.com",
+          "final_url": "https://about.google/",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "About Google: Our products, technology and company information - About Google",
+          "server": "sffe",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 844,
+          "redirect_chain": [
+            "https://about.google.com"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Accept-Ranges": "bytes",
+            "Vary": "Accept-Encoding",
+            "Content-Type": "text/html",
+            "Content-Security-Policy": "script-src 'nonce-S3Mia7MXvWUWnMSGzhRMmA' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/about_google; base-uri 'none'",
+            "Content-Security-Policy-Report-Only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/about_google",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "Cross-Origin-Opener-Policy-Report-Only": "same-origin; report-to=\"uxe-owners-acl/about_google\"",
+            "Report-To": "{\"group\":\"uxe-owners-acl/about_google\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/uxe-owners-acl/about_google\"}]}",
+            "Date": "Sat, 30 May 2026 14:00:05 GMT",
+            "Pragma": "no-cache",
+            "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+            "Cache-Control": "no-cache, must-revalidate",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "Content-Encoding": "gzip",
+            "Server": "sffe",
+            "X-XSS-Protection": "0",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://about.google/",
+      "best_status": 200,
+      "best_title": "About Google: Our products, technology and company information - About Google",
+      "best_server": "sffe"
+    },
+    {
+      "subdomain": "adx.google.com",
+      "ip": "142.250.4.139",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://adx.google.com",
+          "final_url": "https://admanager.google.com/",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "Redirecting...",
+          "server": "ESF",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 859,
+          "redirect_chain": [
+            "https://adx.google.com"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+            "x-robots-tag": "noindex",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+            "Date": "Sat, 30 May 2026 14:00:05 GMT",
+            "x-trace-id": "2199481590898314636",
+            "acx-server-start-time": "1780149605852",
+            "acx-server-time": "5",
+            "Server-Timing": "server-processing;dur=5",
+            "Report-To": "{\"group\":\"encsid_AZSwq6M5umT0lCfhVb7yLdPbFA6eQtax2miV68-cPUU\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/encsid_AZSwq6M5umT0lCfhVb7yLdPbFA6eQtax2miV68-cPUU\"}]}",
+            "Cross-Origin-Opener-Policy": "same-origin-allow-popups; report-to=\"encsid_AZSwq6M5umT0lCfhVb7yLdPbFA6eQtax2miV68-cPUU\"",
+            "Cross-Origin-Resource-Policy": "same-site",
+            "Content-Security-Policy": "base-uri 'self';object-src 'none';report-uri https://csp.withgoogle.com/csp/drx-fe-prod/1;script-src 'report-sample' 'nonce-VPtNWZyIzrZyMWGKPs5LFg' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';worker-src 'self' blob:",
+            "Content-Encoding": "gzip",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Content-Type-Options": "nosniff",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://admanager.google.com/",
+      "best_status": 200,
+      "best_title": "Redirecting...",
+      "best_server": "ESF"
+    },
+    {
+      "subdomain": "actualities.google.com",
+      "ip": "142.250.4.100",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://actualities.google.com",
+          "final_url": "https://actualities.google.com",
+          "status_code": 404,
+          "risk_tag": "not_found",
+          "title": "Error 404 (Not Found)!!1",
+          "server": "",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 828,
+          "redirect_chain": [],
+          "redirected": false,
+          "content_length": "1561",
+          "headers": {
+            "Content-Type": "text/html; charset=UTF-8",
+            "Referrer-Policy": "no-referrer",
+            "Content-Length": "1561",
+            "Date": "Sat, 30 May 2026 14:00:06 GMT",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://actualities.google.com",
+      "best_status": 404,
+      "best_title": "Error 404 (Not Found)!!1",
+      "best_server": ""
+    },
+    {
+      "subdomain": "academico.google.com",
+      "ip": "172.253.144.106",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://academico.google.com",
+          "final_url": "https://scholar.google.com.br/",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "Google Scholar",
+          "server": "scholar",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 1734,
+          "redirect_chain": [
+            "https://academico.google.com"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Date": "Sat, 30 May 2026 14:00:06 GMT",
+            "Expires": "Sat, 30 May 2026 14:00:06 GMT",
+            "Cache-Control": "private, max-age=0",
+            "Content-Type": "text/html; charset=UTF-8",
+            "Set-Cookie": "NID=531=WAv6aikhMpGp8aQOruodkRJXm2CBwZlapA2ARknI1MeslWjhIFCWbCC740Av7-CZTgTQc9pgiVKPXEPzJIYhAhxXOz_FyHQKDOXtD2rhlraLX_CWEkisrQJ97KtAeTcNrH-OX1D4g9XzLhLI30Qlw586ZAxthwpZcjpvZZmjH6kraFw3j16_ivrlczfubXFACRC9UQ; expires=Sun, 29-Nov-2026 14:00:06 GMT; path=/; domain=.google.com.br; Secure; HttpOnly; SameSite=none",
+            "P3P": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+            "X-Content-Type-Options": "nosniff",
+            "Content-Encoding": "gzip",
+            "Server": "scholar",
+            "X-XSS-Protection": "0",
+            "X-Frame-Options": "SAMEORIGIN",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://scholar.google.com.br/",
+      "best_status": 200,
+      "best_title": "Google Scholar",
+      "best_server": "scholar"
+    },
+    {
+      "subdomain": "adsense.google.com",
+      "ip": "142.250.4.113",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://adsense.google.com",
+          "final_url": "https://adsense.google.com/start/",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "Google AdSense - Dapatkan Penghasilan dari Situs Anda dengan Monetisasi",
+          "server": "sffe",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 717,
+          "redirect_chain": [
+            "https://adsense.google.com"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Accept-Ranges": "bytes",
+            "Vary": "Accept-Encoding",
+            "Content-Type": "text/html",
+            "Content-Security-Policy": "script-src 'nonce-k0scVH_QcYdfrppfmMceYA' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/adsense_google_com; base-uri 'none'",
+            "Content-Security-Policy-Report-Only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/adsense_google_com",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "Cross-Origin-Opener-Policy": "same-origin; report-to=\"uxe-owners-acl/adsense_google_com\"",
+            "Report-To": "{\"group\":\"uxe-owners-acl/adsense_google_com\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/uxe-owners-acl/adsense_google_com\"}]}",
+            "P3P": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+            "Date": "Sat, 30 May 2026 14:00:05 GMT",
+            "Pragma": "no-cache",
+            "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+            "Cache-Control": "no-cache, must-revalidate",
+            "Last-Modified": "Mon, 11 Aug 2025 07:48:00 GMT",
+            "X-Content-Type-Options": "nosniff",
+            "Content-Encoding": "gzip",
+            "Server": "sffe",
+            "X-XSS-Protection": "0",
+            "Set-Cookie": "NID=531=C9sBOml5HQXNL_XAZ9YTebtw1H7G3mg8QVw_9frq-nXm0x0qDe-LX2dMAc4Z2GSvxHYYGnJCezJB5mQZxb1mgUodTbhXPeHXbMHtf0hG5HmHR0-7Hjt6y0rhL7Mqxv1rWakKismD9qGWkEYjsocUqTfw-68lwrNm5ewYjl28eBdmUm04VLiWSD2cGAnRE7uYmBHQVQ; expires=Sun, 29-Nov-2026 14:00:05 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://adsense.google.com/start/",
+      "best_status": 200,
+      "best_title": "Google AdSense - Dapatkan Penghasilan dari Situs Anda dengan Monetisasi",
+      "best_server": "sffe"
+    },
+    {
+      "subdomain": "actions.google.com",
+      "ip": "142.250.4.139",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://actions.google.com",
+          "final_url": "https://developers.google.com/assistant",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "Google Assistant &nbsp;|&nbsp; Google for Developers",
+          "server": "Google Frontend",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 1796,
+          "redirect_chain": [
+            "https://actions.google.com",
+            "https://developers.google.com/actions/"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Last-Modified": "Wed, 18 Sep 2024 18:39:25 GMT",
+            "Content-Type": "text/html; charset=utf-8",
+            "Vary": "Cookie",
+            "content-security-policy": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-0TPAFB9w40CYSFIGU5UtBgL3e/vHxb' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri https://csp.withgoogle.com/csp/devsite/v2",
+            "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+            "x-xss-protection": "0",
+            "x-content-type-options": "nosniff",
+            "Cache-Control": "no-cache, must-revalidate",
+            "Expires": "0",
+            "Pragma": "no-cache",
+            "Content-Encoding": "gzip",
+            "x-cloud-trace-context": "c0d2a306957d1d0933405dfe4d85219f",
+            "Date": "Sat, 30 May 2026 14:00:06 GMT",
+            "Server": "Google Frontend",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://developers.google.com/assistant",
+      "best_status": 200,
+      "best_title": "Google Assistant &nbsp;|&nbsp; Google for Developers",
+      "best_server": "Google Frontend"
+    },
+    {
+      "subdomain": "console.actions.google.com",
+      "ip": "142.250.4.100",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://console.actions.google.com",
+          "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://console.actions.google.com/&dsh=S1428118949:1780149605151929&followup=https://console.actions.google.com/&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2PavWlHV8PT_asyLMzF8RBLJx42LPSfaNesEdVIpR4bARtWh-OBSFY50lmVrSp5yRRjmdMMTF",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "Sign in - Google Accounts",
+          "server": "ESF",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 765,
+          "redirect_chain": [
+            "https://console.actions.google.com",
+            "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://console.actions.google.com/&followup=https://console.actions.google.com/",
+            "https://accounts.google.com/InteractiveLogin?continue=https://console.actions.google.com/&followup=https://console.actions.google.com/&osid=1&passive=1209600&dsh=S1428118949:1780149605151929"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "X-Frame-Options": "DENY",
+            "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+            "x-auto-login": "realm=com.google&args=continue%3Dhttps://console.actions.google.com/",
+            "x-ua-compatible": "IE=edge",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+            "Date": "Sat, 30 May 2026 14:00:05 GMT",
+            "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+            "Content-Security-Policy": "script-src 'report-sample' 'nonce-WFwpx6X8L6C5J6XsuAT-aA' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self'",
+            "Content-Security-Policy-Report-Only": "script-src 'unsafe-inline' 'unsafe-eval' blob: data: https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js https://translate.google.com/translate_a/element.js https://www.google.com/recaptcha/api.js https://www.google.com/recaptcha/enterprise.js https://www.gstatic.com/recaptcha/ https://www.google.com/tools/feedback/chat_load.js https://www.google.com/tools/feedback/help_api.js https://www.google.com/tools/feedback/load.js https://www.google.com/tools/feedback/open.js https://www.google.com/tools/feedback/open_to_help_guide_lazy.js https://www.gstatic.com/feedback/js/ https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js https://www.gstatic.com/inproduct_help/api/main.min.js https://www.gstatic.com/inproduct_help/chatsupport/chatsupport_button_v2.js https://www.gstatic.com/inproduct_help/service/lazy.min.js https://www.gstatic.com/uservoice/feedback/client/web/live/ https://www.gstatic.com/uservoice/surveys/resources/prod/js/survey/ https://www.gstatic.com/_/mss/boq-one-google/_/ https://www.gstatic.com/og/_/js/ https://apis.google.com/js/api.js https://apis.google.com/js/client.js https://www.googletagmanager.com/gtag/js https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtag/destination https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.5E-Cp8lktf4.es5.O/ https://apis.google.com/_/scs/abc-static/_/js/ https://translate.googleapis.com/_/translate_http/_/js/ https://www.gstatic.com/recaptcha/releases/;report-uri /v3/signin/_/AccountsSignInUi/cspreport/fine-allowlist",
+            "Cross-Origin-Resource-Policy": "same-site",
+            "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+            "Cross-Origin-Opener-Policy-Report-Only": "same-origin; report-to=\"AccountsSignInUi\"",
+            "Accept-CH": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+            "Report-To": "{\"group\":\"AccountsSignInUi\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi\"}]}",
+            "reporting-endpoints": "default=\"/v3/signin/_/AccountsSignInUi/web-reports?context=eJwNyk9IU3EAB_A19vtSZiRqNXaIGEQtmM2BK6gOI0KWb9t7vTc8REzHJi5ks7c3ySzK_h2EBIVp7FJEkBkVRGXUQQ9ZjbBMJ83155SVrCijJGhR38Pn9qm4aNlWYTMFttpME_aHZu-hD-Z9NFS5aM7SufkXIkPGlZfiLPVRlvaMTgsvtbe8Eh1Uv2lGeCmZnREpkppnhUwDtXmRId2aF6fJsTMvnBS5PCfa6LGjIJ7Rj2MFUd1TEHuXC6KR1hffCBvl8m_FFJm2vBMWKp_ywdTrw-fGJnyhu04JD-jarITBjxKGyFHnh5OWU37A8KN0PoBvdCMTwG3aMRDELrp1P4g7ZPkahE2RsZE2k4Pc5KGWwzKidP2MjJtUpPeUGJOh0-RrGTl6WpbxnCY7FOToar-CEUqOK0jRiZKCXlp77wBq6Ps6FT-pyqqilgbtKoZpyaPiF-3frSJAoyEVC60qFuk3lakmomIDLV3gpU9_VZSo65-KVas1rKE5q4Z5euTTME6dYQ0G9dBJSh7X0Nyv4SBJwxrS8RB8R0NookvdIfRNhVBduXKhWJpG1cifsScr7NsjySPheDSWMOJGd5ueTBixRLQ1bbSn46mY3hXTw26X2-NqcHvqXA3hzvr_R2rbiA\"",
+            "Content-Encoding": "gzip",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "X-Content-Type-Options": "nosniff",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://accounts.google.com/v3/signin/identifier?continue=https://console.actions.google.com/&dsh=S1428118949:1780149605151929&followup=https://console.actions.google.com/&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2PavWlHV8PT_asyLMzF8RBLJx42LPSfaNesEdVIpR4bARtWh-OBSFY50lmVrSp5yRRjmdMMTF",
+      "best_status": 200,
+      "best_title": "Sign in - Google Accounts",
+      "best_server": "ESF"
+    },
+    {
+      "subdomain": "adwords.google.com",
+      "ip": "74.125.200.100",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://adwords.google.com",
+          "final_url": "https://business.google.com/en-all/google-ads/",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "Reach Customers &amp; Sell More with Online Advertising - Google Ads",
+          "server": "ESF",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 2078,
+          "redirect_chain": [
+            "https://adwords.google.com",
+            "https://ads.google.com/intl/en_ID/home/"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+            "Date": "Sat, 30 May 2026 14:00:06 GMT",
+            "Strict-Transport-Security": "max-age=31536000",
+            "Cross-Origin-Opener-Policy": "same-origin",
+            "Content-Security-Policy": "script-src 'report-sample' 'nonce-xG74Zy4VA0XBH5bHmF7GoQ' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri /en-all/_/GoogleAds/cspreport;worker-src blob: 'self'",
+            "Content-Security-Policy-Report-Only": "script-src 'unsafe-inline' 'unsafe-eval' blob: data: https://www.gstatic.com/marketing-cms/ads/ https://www.gstatic.com/marketing-cms/adsuat/ https://www.gstatic.com/marketing-cms/adscanary/ https://www.gstatic.com/awmp/analytics_async.js https://www.gstatic.com/awmp/dev/analytics_async.js https://www.gstatic.com/awmp/bgc_agc_bootstrapper.js https://www.gstatic.com/awmp/dev/bgc_agc_bootstrapper.js https://www.gstatic.com/awmp/dev/dcs_debug.js https://www.gstatic.com/marketing-cms/reviewed-scripts/youtube/iframe_api.js https://www.gstatic.com/marketing-cms/reviewed-scripts/glue/v27_0/material-components-web.min.js https://www.gstatic.com/marketing-cms/reviewed-scripts/youtube/www-widgetapi.js https://www.gstatic.com/engage/marketing/automation/prod/v1/marketing_analytics_client_grpc.min.js https://www.gstatic.com/engage/marketing/automation/staging/v1/marketing_analytics_client_grpc.min.js https://www.gstatic.com/greentea/adsguide/prod/v1/web/main.dart.js https://www.gstatic.com/greentea/adsguide/prod/v1/web_spotlight/main.dart.js https://www.gstatic.com/greentea/adsguide/staging/web/main.dart.js https://www.gstatic.com/greentea/adsguide/staging/web_spotlight/main.dart.js https://apis.google.com/js/api.js https://www.google.com/tools/feedback/help_api.js https://www.gstatic.com/_/mss/boq-hex-guidance/_/js/ https://www.gstatic.com/_/mss/boq-support-asx/_/js/ https://www.gstatic.com/feedback/js/ghelp/ https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js https://youtube.googleapis.com/iframe_api https://www.google.com/recaptcha/api.js https://www.googletagmanager.com/gtm.js https://www.googletagmanager.com/gtag/destination https://www.googletagmanager.com/gtag/js https://www.googleadservices.com/pagead/conversion/ https://googleads.g.doubleclick.net/pagead/viewthroughconversion/ https://pagead2.googlesyndication.com/pagead/conversion/ https://www.google-analytics.com/analytics.js https://ads.google.com/aw/google_ads_prefetch.js https://ads.google.com/aw/JsPrefetch https://ads.google.com/aw_accountonboarding/JsPrefetch https://ads.google.com/aw_cm/editing/JsPrefetch https://ads.google.com/aw_essentials/JsPrefetch https://ads.google.com/aw_express/management/JsPrefetch https://ssl.gstatic.com/external_hosted/lottie/lottie.js https://apis.google.com/_/scs/abc-static/_/js/ https://www.gstatic.com/recaptcha/releases/;report-uri /en-all/_/GoogleAds/cspreport/fine-allowlist",
+            "Accept-CH": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+            "Cross-Origin-Resource-Policy": "same-site",
+            "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+            "reporting-endpoints": "default=\"/en-all/_/GoogleAds/web-reports?context=eJzj6mDU4pJi8NOQYljreJl1PRBvBuKtQLwdiItcLrOWA3EVENcBcTMQtwHxo7TLrE-AmDn9Mis7EPMCsSAQM2-8wtoocoe1GYg7gfhghy_bYSB26fRl8wBiHyD2B-IQIF6y15_NNCSQzRmIt2gGswnxcDy79foCm0DHksVHGZVsk_IL41Pz0hPTU3VzE4uyU0sy89J1E0tL8nMTSzLz83RTKvMSczOTk_PzSlLzSuKNDIzMDEyNzPUMzOMLDAA8xU2-\"",
+            "Content-Encoding": "gzip",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Content-Type-Options": "nosniff",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://business.google.com/en-all/google-ads/",
+      "best_status": 200,
+      "best_title": "Reach Customers &amp; Sell More with Online Advertising - Google Ads",
+      "best_server": "ESF"
+    },
+    {
+      "subdomain": "borgmon.evenflow-test.adz.google.com",
+      "ip": "64.233.170.129",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://borgmon.evenflow-test.adz.google.com",
+          "final_url": "https://borgmon.evenflow-test.adz.google.com",
+          "status_code": 400,
+          "risk_tag": "other",
+          "title": "&Uuml;berProxy: Error 400",
+          "server": "",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 1078,
+          "redirect_chain": [],
+          "redirected": false,
+          "content_length": "14236",
+          "headers": {
+            "Content-Type": "text/html; charset=UTF-8",
+            "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+            "Pragma": "no-cache",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "X-UberProxy-Code": "4036",
+            "Content-Length": "14236",
+            "Accept-CH": "Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64",
+            "Permissions-Policy": "ch-ua=*, ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-mobile=*, ch-ua-model=*, ch-ua-platform=*, ch-ua-platform-version=*, ch-ua-wow64=*",
+            "Date": "Sat, 30 May 2026 14:00:06 GMT",
+            "Cross-Origin-Opener-Policy-Report-Only": "same-origin; report-to=\"gfe-l2-uberproxy\"",
+            "Report-To": "{\"group\":\"gfe-l2-uberproxy\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/l2-uberproxy\"}]}"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://borgmon.evenflow-test.adz.google.com",
+      "best_status": 400,
+      "best_title": "&Uuml;berProxy: Error 400",
+      "best_server": ""
+    },
+    {
+      "subdomain": "accounts.google.com",
+      "ip": "74.125.130.84",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://accounts.google.com",
+          "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://accounts.google.com/&dsh=S489121910:1780149605471369&followup=https://accounts.google.com/&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2Pas7ARrhF2V1GHuZwcLRUswfgi-Rwdy4Nla1xyPjcT9kUbqC6Fu1JhVx182lGJL2mhVJeo4-KA",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "Sign in - Google Accounts",
+          "server": "ESF",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 1686,
+          "redirect_chain": [
+            "https://accounts.google.com",
+            "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://accounts.google.com/&followup=https://accounts.google.com/",
+            "https://accounts.google.com/InteractiveLogin?continue=https://accounts.google.com/&followup=https://accounts.google.com/&passive=1209600&dsh=S489121910:1780149605471369"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "X-Frame-Options": "DENY",
+            "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+            "x-auto-login": "realm=com.google&args=continue%3Dhttps://accounts.google.com/",
+            "x-ua-compatible": "IE=edge",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+            "Date": "Sat, 30 May 2026 14:00:06 GMT",
+            "Set-Cookie": "NID=531=EwL1ESGTvKcaGrkj2YhHwzjj7nSXKbRHNFpgslzQpVVUaZYdKylToD-q7oBpfNXlx1lEoYYVWW3wgKMqoRo4lPgMbmhmgfqT7iM8IudpyXPXHzkPyofwieOynaWHL084U8dLMEDHSN64fp-6zhmGusgQ0cReOOqztF3YYTWPbgvFJKHnBCE6cb0NfdPRI1cU2vBY_SQ; expires=Sun, 29-Nov-2026 14:00:05 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none",
+            "P3P": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+            "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+            "Cross-Origin-Opener-Policy-Report-Only": "same-origin; report-to=\"AccountsSignInUi\"",
+            "Report-To": "{\"group\":\"AccountsSignInUi\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi\"}]}",
+            "Accept-CH": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+            "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+            "Content-Security-Policy": "script-src 'report-sample' 'nonce-cvUuacnB-c5TXmdv47y0OQ' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self'",
+            "Content-Security-Policy-Report-Only": "script-src 'unsafe-inline' 'unsafe-eval' blob: data: https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js https://translate.google.com/translate_a/element.js https://www.google.com/recaptcha/api.js https://www.google.com/recaptcha/enterprise.js https://www.gstatic.com/recaptcha/ https://www.google.com/tools/feedback/chat_load.js https://www.google.com/tools/feedback/help_api.js https://www.google.com/tools/feedback/load.js https://www.google.com/tools/feedback/open.js https://www.google.com/tools/feedback/open_to_help_guide_lazy.js https://www.gstatic.com/feedback/js/ https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js https://www.gstatic.com/inproduct_help/api/main.min.js https://www.gstatic.com/inproduct_help/chatsupport/chatsupport_button_v2.js https://www.gstatic.com/inproduct_help/service/lazy.min.js https://www.gstatic.com/uservoice/feedback/client/web/live/ https://www.gstatic.com/uservoice/surveys/resources/prod/js/survey/ https://www.gstatic.com/_/mss/boq-one-google/_/ https://www.gstatic.com/og/_/js/ https://apis.google.com/js/api.js https://apis.google.com/js/client.js https://www.googletagmanager.com/gtag/js https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtag/destination https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.5E-Cp8lktf4.es5.O/ https://apis.google.com/_/scs/abc-static/_/js/ https://translate.googleapis.com/_/translate_http/_/js/ https://www.gstatic.com/recaptcha/releases/;report-uri /v3/signin/_/AccountsSignInUi/cspreport/fine-allowlist",
+            "Cross-Origin-Resource-Policy": "same-site",
+            "reporting-endpoints": "default=\"/v3/signin/_/AccountsSignInUi/web-reports?context=eJwNyk9IU3EAB_A19vtSZiRqNXaIGEQtmM2BK6gOI0RW-_Ne7z08REzHJi5ks7c3ySzK_hFCguIUdikiyIwKon_kwQ5JjbBMJ81lncqSFWWUdFjU9_C5fSqGLDsqbKbG7TbTU_sTs_fIR3MjDVcumbN0Yf6VyJBx7bU4T32UpX1j08JL7S1vRAfVb5kRXkpmZ0SK_M2zQqKB2rzIkG7Ni7Pk2J0XTopcnRNt9MxREC_o54mCqO4piP0rBdFEG4vvhI1y-QUxRaZt74WFymd8MPX68KXpIL7Sfacfj-nGrB-Di34Mk6MuACetpAKAEUDpYhDf6VYmiLu0ayCEPXTnYQj3yPItBJssYTNtJQe5yUMtRyVE6eY5CbepSB8o8UiCTpNvJeToeVnCS5rskJGj6_0yRik5ISNFp0oyemn9g0OooR8bFPyiKquCWhq0KxihZY-C33Rgr4IgjWkKPrUqWKI_VKaaiIJNtHyZlz7_VVCirn8K1qxVsY7mrCrmadynYoI6wyoM6qHTlDyporlfxWHyj6hIxzX4jmu40q2hb0pDdeXqxWJpGlWXFoZGV9l3RpLHwvFoLGHEje42PZkwYoloa9poT8dTMb0rpofdLrfH1eD21Lkawp31_wHAcNne\"",
+            "Content-Encoding": "gzip",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "X-Content-Type-Options": "nosniff",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://accounts.google.com/v3/signin/identifier?continue=https://accounts.google.com/&dsh=S489121910:1780149605471369&followup=https://accounts.google.com/&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2Pas7ARrhF2V1GHuZwcLRUswfgi-Rwdy4Nla1xyPjcT9kUbqC6Fu1JhVx182lGJL2mhVJeo4-KA",
+      "best_status": 200,
+      "best_title": "Sign in - Google Accounts",
+      "best_server": "ESF"
+    },
+    {
+      "subdomain": "adservice.google.com",
+      "ip": "74.125.200.156",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://adservice.google.com",
+          "final_url": "https://adservice.google.com",
+          "status_code": 404,
+          "risk_tag": "not_found",
+          "title": "Error 404 (Not Found)!!1",
+          "server": "",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 1295,
+          "redirect_chain": [],
+          "redirected": false,
+          "content_length": "1561",
+          "headers": {
+            "Content-Type": "text/html; charset=UTF-8",
+            "Referrer-Policy": "no-referrer",
+            "Content-Length": "1561",
+            "Date": "Sat, 30 May 2026 14:00:07 GMT",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://adservice.google.com",
+      "best_status": 404,
+      "best_title": "Error 404 (Not Found)!!1",
+      "best_server": ""
+    },
+    {
+      "subdomain": "adstransparency.google.com",
+      "ip": "74.125.68.113",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://adstransparency.google.com",
+          "final_url": "https://adstransparency.google.com",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "",
+          "server": "ESF",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 577,
+          "redirect_chain": [],
+          "redirected": false,
+          "content_length": "",
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+            "Date": "Sat, 30 May 2026 14:00:05 GMT",
+            "x-trace-id": "-5667925061457657497",
+            "P3P": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+            "acx-server-start-time": "1780149605217",
+            "acx-server-time": "121",
+            "Server-Timing": "server-processing;dur=121",
+            "Cross-Origin-Opener-Policy": "same-origin; report-to=\"encsid_AZSwq6NboT-khin5N3ei2Z2pu4QuMn9qPUMhIkWS1Bf2FFt9tIRCIFP0-Ab4a3twCYiamgEt\"",
+            "Report-To": "{\"group\":\"encsid_AZSwq6NboT-khin5N3ei2Z2pu4QuMn9qPUMhIkWS1Bf2FFt9tIRCIFP0-Ab4a3twCYiamgEt\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/encsid_AZSwq6NboT-khin5N3ei2Z2pu4QuMn9qPUMhIkWS1Bf2FFt9tIRCIFP0-Ab4a3twCYiamgEt\"}]}",
+            "Content-Security-Policy": "script-src 'report-sample' 'nonce-YaREcnRfmW8y_p_3Mey-xA' 'unsafe-inline' 'unsafe-eval';object-src 'none';base-uri 'self';worker-src 'self';report-uri //csp.withgoogle.com/csp/acx-tfaar-tfaa-report-ui-frontend-canary",
+            "Cross-Origin-Resource-Policy": "same-site",
+            "Content-Encoding": "gzip",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Content-Type-Options": "nosniff",
+            "Set-Cookie": "NID=531=WaVI4Zarb4CikAU1GwdVbBKFOQddnCldBoR2Yis0tRAc_Gnj1UnfxOgAxJKV_JCDAKmo_xJPvELMvwuR_47goXKeQzZFY-khaZSbMR0_ltkVyLN4wb2ABBFmsv3_DAiX6miKhUG6nkU6qiVxndAm0_XNN8lOMi0aAgLmMTpYvPhxsXfYfh8NpgH158aLcSnw7Xli55I; expires=Sun, 29-Nov-2026 14:00:05 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://adstransparency.google.com",
+      "best_status": 200,
+      "best_title": "",
+      "best_server": "ESF"
+    },
+    {
+      "subdomain": "ads.google.com",
+      "ip": "74.125.24.101",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://ads.google.com",
+          "final_url": "https://business.google.com/en-all/google-ads/",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "Reach Customers &amp; Sell More with Online Advertising - Google Ads",
+          "server": "ESF",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 860,
+          "redirect_chain": [
+            "https://ads.google.com",
+            "https://ads.google.com/intl/en_ID/home/"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+            "Date": "Sat, 30 May 2026 14:00:05 GMT",
+            "Strict-Transport-Security": "max-age=31536000",
+            "Content-Security-Policy": "script-src 'report-sample' 'nonce-TLa8GACCJweZn29JKOEd0A' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri /en-all/_/GoogleAds/cspreport;worker-src blob: 'self'",
+            "Content-Security-Policy-Report-Only": "script-src 'unsafe-inline' 'unsafe-eval' blob: data: https://www.gstatic.com/marketing-cms/ads/ https://www.gstatic.com/marketing-cms/adsuat/ https://www.gstatic.com/marketing-cms/adscanary/ https://www.gstatic.com/awmp/analytics_async.js https://www.gstatic.com/awmp/dev/analytics_async.js https://www.gstatic.com/awmp/bgc_agc_bootstrapper.js https://www.gstatic.com/awmp/dev/bgc_agc_bootstrapper.js https://www.gstatic.com/awmp/dev/dcs_debug.js https://www.gstatic.com/marketing-cms/reviewed-scripts/youtube/iframe_api.js https://www.gstatic.com/marketing-cms/reviewed-scripts/glue/v27_0/material-components-web.min.js https://www.gstatic.com/marketing-cms/reviewed-scripts/youtube/www-widgetapi.js https://www.gstatic.com/engage/marketing/automation/prod/v1/marketing_analytics_client_grpc.min.js https://www.gstatic.com/engage/marketing/automation/staging/v1/marketing_analytics_client_grpc.min.js https://www.gstatic.com/greentea/adsguide/prod/v1/web/main.dart.js https://www.gstatic.com/greentea/adsguide/prod/v1/web_spotlight/main.dart.js https://www.gstatic.com/greentea/adsguide/staging/web/main.dart.js https://www.gstatic.com/greentea/adsguide/staging/web_spotlight/main.dart.js https://apis.google.com/js/api.js https://www.google.com/tools/feedback/help_api.js https://www.gstatic.com/_/mss/boq-hex-guidance/_/js/ https://www.gstatic.com/_/mss/boq-support-asx/_/js/ https://www.gstatic.com/feedback/js/ghelp/ https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js https://youtube.googleapis.com/iframe_api https://www.google.com/recaptcha/api.js https://www.googletagmanager.com/gtm.js https://www.googletagmanager.com/gtag/destination https://www.googletagmanager.com/gtag/js https://www.googleadservices.com/pagead/conversion/ https://googleads.g.doubleclick.net/pagead/viewthroughconversion/ https://pagead2.googlesyndication.com/pagead/conversion/ https://www.google-analytics.com/analytics.js https://ads.google.com/aw/google_ads_prefetch.js https://ads.google.com/aw/JsPrefetch https://ads.google.com/aw_accountonboarding/JsPrefetch https://ads.google.com/aw_cm/editing/JsPrefetch https://ads.google.com/aw_essentials/JsPrefetch https://ads.google.com/aw_express/management/JsPrefetch https://ssl.gstatic.com/external_hosted/lottie/lottie.js https://apis.google.com/_/scs/abc-static/_/js/ https://www.gstatic.com/recaptcha/releases/;report-uri /en-all/_/GoogleAds/cspreport/fine-allowlist",
+            "Cross-Origin-Resource-Policy": "same-site",
+            "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+            "Cross-Origin-Opener-Policy": "same-origin",
+            "Accept-CH": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+            "reporting-endpoints": "default=\"/en-all/_/GoogleAds/web-reports?context=eJzj6mDU4pJicNSQYljreJl1PRBvBuKtQLwdiItcLrOWA3E1ENcBcTMQtwPxo7TLrE-AmDn9MisHEPMCsQAQM2-8wtoocoe1GYg7gfhghy_bYSB26fRl8wBiHyAOAOJgIF6y15_NNCSQzRmIt2gGswlxczy99foCm8CCq0sdlWyT8gvjU_PSE9NTdXMTi7JTSzLz0nUTS0vycxNLMvPzdFMq8xJzM5OT8_NKUvNK4o0MjMwMTI3M9QzM4wsMAO29TXc\"",
+            "Content-Encoding": "gzip",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Content-Type-Options": "nosniff",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://business.google.com/en-all/google-ads/",
+      "best_status": 200,
+      "best_title": "Reach Customers &amp; Sell More with Online Advertising - Google Ads",
+      "best_server": "ESF"
+    },
+    {
+      "subdomain": "admin.google.com",
+      "ip": "142.250.4.102",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://admin.google.com",
+          "final_url": "https://www.google.com/sorry/index?continue=https://admin.google.com/&q=EgRnqCwYGOfa69AGIjBadjHIvWTe9A0hrIt1RAcZpkb-R9ipIc_zAx24UIBCbyFpPf7kixtFOOPjQCZrvwwyBz5qY25kclJaAUM",
+          "status_code": 429,
+          "risk_tag": "rate_limited",
+          "title": "https://admin.google.com/",
+          "server": "scaffolding on HTTPServer2",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 1813,
+          "redirect_chain": [
+            "https://admin.google.com"
+          ],
+          "redirected": true,
+          "content_length": "1915",
+          "headers": {
+            "Date": "Sat, 30 May 2026 14:00:08 GMT",
+            "Pragma": "no-cache",
+            "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+            "Cache-Control": "no-store, no-cache, must-revalidate",
+            "Content-Type": "text/html",
+            "Server": "scaffolding on HTTPServer2",
+            "Content-Length": "1915",
+            "X-XSS-Protection": "0",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://www.google.com/sorry/index?continue=https://admin.google.com/&q=EgRnqCwYGOfa69AGIjBadjHIvWTe9A0hrIt1RAcZpkb-R9ipIc_zAx24UIBCbyFpPf7kixtFOOPjQCZrvwwyBz5qY25kclJaAUM",
+      "best_status": 429,
+      "best_title": "https://admin.google.com/",
+      "best_server": "scaffolding on HTTPServer2"
+    },
+    {
+      "subdomain": "activity.google.com",
+      "ip": "74.125.24.139",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://activity.google.com",
+          "final_url": "https://myactivity.google.com/",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "Welcome to My Activity",
+          "server": "ESF",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 1235,
+          "redirect_chain": [
+            "https://activity.google.com"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+            "x-ua-compatible": "IE=edge",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+            "Date": "Sat, 30 May 2026 14:00:07 GMT",
+            "Strict-Transport-Security": "max-age=31536000",
+            "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+            "Accept-CH": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+            "Content-Security-Policy": "require-trusted-types-for 'script';report-uri /_/FootprintsMyactivitySignedoutUi/cspreport",
+            "Cross-Origin-Opener-Policy": "same-origin",
+            "Content-Security-Policy-Report-Only": "script-src 'unsafe-inline' 'unsafe-eval' blob: data: https://translate.google.com/translate_a/element.js https://www.gstatic.com/_/mss/boq-one-google/_/ https://www.gstatic.com/og/_/js/ https://apis.google.com/js/api.js https://apis.google.com/js/client.js https://www.googletagmanager.com/gtag/js https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtag/destination https://www.google.com/tools/feedback/chat_load.js https://www.google.com/tools/feedback/help_api.js https://www.google.com/tools/feedback/load.js https://www.google.com/tools/feedback/open.js https://www.google.com/tools/feedback/open_to_help_guide_lazy.js https://www.gstatic.com/feedback/js/ https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js https://www.gstatic.com/inproduct_help/api/main.min.js https://www.gstatic.com/inproduct_help/chatsupport/chatsupport_button_v2.js https://www.gstatic.com/inproduct_help/service/lazy.min.js https://www.gstatic.com/uservoice/feedback/client/web/live/ https://www.gstatic.com/uservoice/surveys/resources/prod/js/survey/ https://www.gstatic.com/_/mss/boq-footprints/_/js/k=boq-footprints.FootprintsMyactivitySignedoutUi.en_US.Yvzlp_z1Y8s.2018.O/ https://apis.google.com/_/scs/abc-static/_/js/ https://translate.googleapis.com/_/translate_http/_/js/;report-uri /_/FootprintsMyactivitySignedoutUi/cspreport/fine-allowlist",
+            "Cross-Origin-Resource-Policy": "same-site",
+            "reporting-endpoints": "default=\"/_/FootprintsMyactivitySignedoutUi/web-reports?context=eJwNw1tIU3EYAPDx6fchS6J8KQVDioHL0jm8BJVOKqLm2dzlEHZxWM4cXba248o5GkTtIaEQtUAqS3wpFIkeMqZpRTV62KltuZ2zBGVtY5ViPfRU0f8HP2W4YKeyTHGoskxxfnUGHm8LwQwr7gpBsD8EuuMSRLokWGKbnknQyq5wMpQaZKhkk0EZIq9kCNaloPdRCg7vTcN0Zxom7qehXJ2BwukM1Jqy8OdeFsZzWVjekoOf_jxU387DreE8jJ66izekCI6wUwdEnGsTURgX8Tp7kx1lU-9FrK2IYguruxJF1WAUnUNRDCti-M8eQ_fWOF5jF1rjGDjxGV-qF9G4IYHNvgSqPyWwx5nEX74klvQn8dzfJL5tkXCfV8LNTyQcq5Lx7NUUVqm-4NSdJfSHj9BEx1GK1egpoNPTyJie1tb1lN3N0W8PRyRw1D7E0Un29QeO_B0GGmAvrxkowCr3GGll3khf2ahspMJVI3W3t5G3zkSJhyYafGMi1bKJ4vvN1DhppnLRTD0ZM-m-melFhYXikxYKzFto4w8LTRZbabbBSgMuKzW_s9Iwu1jE0zEVTwebeFrv4mmHj6enczzFF-pLS4qLcvL3j7QpPPvgecH2mtPOS7Zup1NwuR0XBc-Fvs4zgsPrEPp6HR6722t327QabYOmXttYrdHYXJr_NeLRmg\"",
+            "Content-Encoding": "gzip",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Content-Type-Options": "nosniff",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://myactivity.google.com/",
+      "best_status": 200,
+      "best_title": "Welcome to My Activity",
+      "best_server": "ESF"
+    },
+    {
+      "subdomain": "advisor.google.com",
+      "ip": "142.250.4.113",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://advisor.google.com",
+          "final_url": "https://www.google.com/advisor",
+          "status_code": 404,
+          "risk_tag": "not_found",
+          "title": "Error 404 (Not Found)!!1",
+          "server": "sffe",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 1327,
+          "redirect_chain": [
+            "https://advisor.google.com"
+          ],
+          "redirected": true,
+          "content_length": "1568",
+          "headers": {
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "Content-Type": "text/html; charset=UTF-8",
+            "X-Content-Type-Options": "nosniff",
+            "Date": "Sat, 30 May 2026 14:00:08 GMT",
+            "Server": "sffe",
+            "Content-Length": "1568",
+            "X-XSS-Protection": "0",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://www.google.com/advisor",
+      "best_status": 404,
+      "best_title": "Error 404 (Not Found)!!1",
+      "best_server": "sffe"
+    },
+    {
+      "subdomain": "360suite.google.com",
+      "ip": "142.250.4.139",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://360suite.google.com",
+          "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://360suite.google.com/&dsh=S-485081497:1780149607462268&followup=https://360suite.google.com/&passive=1209600&service=analytics&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2Pasr9XDxKj2oNJM53OxEz_ZPkqba1nI_D-efCxh2RKfX8Sfb366dDLxMwxKVsX7F0G20BquzWg",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "",
+          "server": "ESF",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 3594,
+          "redirect_chain": [
+            "https://360suite.google.com",
+            "https://accounts.google.com/ServiceLogin?service=analytics&passive=1209600&continue=https://360suite.google.com/&followup=https://360suite.google.com/",
+            "https://accounts.google.com/InteractiveLogin?continue=https://360suite.google.com/&followup=https://360suite.google.com/&passive=1209600&service=analytics&dsh=S-485081497:1780149607462268"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "X-Frame-Options": "DENY",
+            "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+            "x-auto-login": "realm=com.google&args=service%3Danalytics%26continue%3Dhttps://360suite.google.com/",
+            "Link": "<https://marketingplatform.google.com/intl/en-US/about/analytics/>; rel=\"canonical\"",
+            "x-ua-compatible": "IE=edge",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+            "Date": "Sat, 30 May 2026 14:00:07 GMT",
+            "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+            "Accept-CH": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+            "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+            "Cross-Origin-Opener-Policy-Report-Only": "same-origin; report-to=\"AccountsSignInUi\"",
+            "Cross-Origin-Resource-Policy": "same-site",
+            "Content-Security-Policy": "script-src 'report-sample' 'nonce-s9b2akCKHr_gq13CqLK4rA' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self'",
+            "Content-Security-Policy-Report-Only": "script-src 'unsafe-inline' 'unsafe-eval' blob: data: https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js https://translate.google.com/translate_a/element.js https://www.google.com/recaptcha/api.js https://www.google.com/recaptcha/enterprise.js https://www.gstatic.com/recaptcha/ https://www.google.com/tools/feedback/chat_load.js https://www.google.com/tools/feedback/help_api.js https://www.google.com/tools/feedback/load.js https://www.google.com/tools/feedback/open.js https://www.google.com/tools/feedback/open_to_help_guide_lazy.js https://www.gstatic.com/feedback/js/ https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js https://www.gstatic.com/inproduct_help/api/main.min.js https://www.gstatic.com/inproduct_help/chatsupport/chatsupport_button_v2.js https://www.gstatic.com/inproduct_help/service/lazy.min.js https://www.gstatic.com/uservoice/feedback/client/web/live/ https://www.gstatic.com/uservoice/surveys/resources/prod/js/survey/ https://www.gstatic.com/_/mss/boq-one-google/_/ https://www.gstatic.com/og/_/js/ https://apis.google.com/js/api.js https://apis.google.com/js/client.js https://www.googletagmanager.com/gtag/js https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtag/destination https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.5E-Cp8lktf4.es5.O/ https://apis.google.com/_/scs/abc-static/_/js/ https://translate.googleapis.com/_/translate_http/_/js/ https://www.gstatic.com/recaptcha/releases/;report-uri /v3/signin/_/AccountsSignInUi/cspreport/fine-allowlist",
+            "Report-To": "{\"group\":\"AccountsSignInUi\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi\"}]}",
+            "reporting-endpoints": "default=\"/v3/signin/_/AccountsSignInUi/web-reports?context=eJwNyk9IU3EAB_Cx9vtSZiRqNXaIGEQtmM2BK6gOI0RW-_Ne7w0PEdOxiQvZs7c3ySzS_h2EBKVp7FJEUBkVSFbkwQ5JjbBMJ83151SZrCijpMOivofP7VNxybKjwmZq3G4zPbE_NnuPfDQ30nDlkjlL5xdeigwZ116Jc9RPWdo3OiO81N7yWnRQ_ZZZ4SUtOytS5G-eExIN1uZFhnRrXpwhx-68cFL06rxoo6eOgnhOP08URHVPQexfKYgm2lh8K2yUy78T02Ta9l5YqNzrg6nPhy9NB_GV7jv9eEQ35vwY-uzHMDnqAnDSSioAGAGULgTxnW5ngrhHuwZD2EN3H4QwRpZvIdhkCZtpKznITR5qOSohRrfOSrhDRfpAyYcSdJp6IyFHz8oSXtBUh4wcXR-QcZO0SRkpOlWS0Ufrxw-hhn5sUPCLqqwKamnIrmCElj0KftOBvQqCNBpW8KlVwRL9oTLVRBVsouWLvLT4V0GJuv4pWLNWxTqat6pYoAmfiknqjKgwqIdOk3ZSRfOAisPkH1GRToThOx7Gle4w-qfDqK5cvVgszaCqd3zs8ir7zqh2LJKIxZNGwuhu07WkEU_GWtNGezqRiutdcT3idrk9rga3p87VEOms_w-6NdnA\"",
+            "Content-Encoding": "gzip",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "X-Content-Type-Options": "nosniff",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://accounts.google.com/v3/signin/identifier?continue=https://360suite.google.com/&dsh=S-485081497:1780149607462268&followup=https://360suite.google.com/&passive=1209600&service=analytics&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2Pasr9XDxKj2oNJM53OxEz_ZPkqba1nI_D-efCxh2RKfX8Sfb366dDLxMwxKVsX7F0G20BquzWg",
+      "best_status": 200,
+      "best_title": "",
+      "best_server": "ESF"
+    },
+    {
+      "subdomain": "actionscenter.google.com",
+      "ip": "142.251.10.139",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://actionscenter.google.com",
+          "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://actionscenter.google.com/&dsh=S-318407234:1780149607150658&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2PashzCE5FhNjyeQEnLp5rVSzB_4iA3fWNnNuPg-XFAxM4lVMHP34HktTxD88U94g0Or15utC",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "",
+          "server": "ESF",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 3813,
+          "redirect_chain": [
+            "https://actionscenter.google.com",
+            "https://accounts.google.com/ServiceLogin?continue=https://actionscenter.google.com/",
+            "https://accounts.google.com/InteractiveLogin?continue=https://actionscenter.google.com/&dsh=S-318407234:1780149607150658"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "X-Frame-Options": "DENY",
+            "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+            "x-auto-login": "realm=com.google&args=continue%3Dhttps://actionscenter.google.com/",
+            "x-ua-compatible": "IE=edge",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+            "Date": "Sat, 30 May 2026 14:00:08 GMT",
+            "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+            "Accept-CH": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+            "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+            "Content-Security-Policy": "require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport",
+            "Report-To": "{\"group\":\"AccountsSignInUi\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi\"}]}",
+            "Cross-Origin-Resource-Policy": "same-site",
+            "Cross-Origin-Opener-Policy-Report-Only": "same-origin; report-to=\"AccountsSignInUi\"",
+            "Content-Security-Policy-Report-Only": "script-src 'unsafe-inline' 'unsafe-eval' blob: data: https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js https://translate.google.com/translate_a/element.js https://www.google.com/recaptcha/api.js https://www.google.com/recaptcha/enterprise.js https://www.gstatic.com/recaptcha/ https://www.google.com/tools/feedback/chat_load.js https://www.google.com/tools/feedback/help_api.js https://www.google.com/tools/feedback/load.js https://www.google.com/tools/feedback/open.js https://www.google.com/tools/feedback/open_to_help_guide_lazy.js https://www.gstatic.com/feedback/js/ https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js https://www.gstatic.com/inproduct_help/api/main.min.js https://www.gstatic.com/inproduct_help/chatsupport/chatsupport_button_v2.js https://www.gstatic.com/inproduct_help/service/lazy.min.js https://www.gstatic.com/uservoice/feedback/client/web/live/ https://www.gstatic.com/uservoice/surveys/resources/prod/js/survey/ https://www.gstatic.com/_/mss/boq-one-google/_/ https://www.gstatic.com/og/_/js/ https://apis.google.com/js/api.js https://apis.google.com/js/client.js https://www.googletagmanager.com/gtag/js https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtag/destination https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.5E-Cp8lktf4.es5.O/ https://apis.google.com/_/scs/abc-static/_/js/ https://translate.googleapis.com/_/translate_http/_/js/ https://www.gstatic.com/recaptcha/releases/;report-uri /v3/signin/_/AccountsSignInUi/cspreport/fine-allowlist",
+            "reporting-endpoints": "default=\"/v3/signin/_/AccountsSignInUi/web-reports?context=eJwNyk1Ik2EAB_Ax9vypWSRqNXaIGEQtmM2BK6gOI0JW77Z3Pe_wEDEdm7iQzbbXkVmUfR2EBKVp7FJEUBkVRF_UQQ9JjbBMJ831QYc-lBVl1OiwqP_hd_uZz5s2m60GuclqmLA9MnoOfDTuppEVi8YcnZl_IbKkX34pTtMA5Wjn2LTwUGfbK9FFTetnhIeSuRmRJqV1Vqg01FAQWUpZCuIk2bcVhIMil-ZEBz2xF8Uz-nmkKOr6imJXpShaaE3pjbBSvvBWTJFh4zthouoJLwz9Xiy07MVXuutQ8JCuzioY_qxghOyNPjiokvYBug_ls358pxtZP27T1qEAttOt-wHcIdO3AKxBFetoA9nJRW5qO6giStdPqbhJJXpPiQcqUjT5WkWenlZVPKfJriDydGUwiGuUHA8iTcfKQfTTqnv7UE8_Vkv8olqLRAMN2yRGackt8Zv27JDw01hI4lO7xCL9oSrVRyTW0tI5XvryV6JMmX8Sy2s0rKQ5i4Z5euzVME7dYQ069dFxSh7V0DqoYT8poxoy8RC8h0O42BvCwFQIdTXLFkrladR-uFAx27ZEkofC8Wgsocf13o5UMqHHEtH2Hr2zJ56OpTKxVNjldLmdzS53o7M53N30HxGq2cU\"",
+            "Content-Encoding": "gzip",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "X-Content-Type-Options": "nosniff",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://accounts.google.com/v3/signin/identifier?continue=https://actionscenter.google.com/&dsh=S-318407234:1780149607150658&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2PashzCE5FhNjyeQEnLp5rVSzB_4iA3fWNnNuPg-XFAxM4lVMHP34HktTxD88U94g0Or15utC",
+      "best_status": 200,
+      "best_title": "",
+      "best_server": "ESF"
+    },
+    {
+      "subdomain": "adscreativestudio.google.com",
+      "ip": "74.125.130.138",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://adscreativestudio.google.com",
+          "final_url": "https://support.google.com/adscreativestudio/answer/15572845",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "",
+          "server": "support-content-ui",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 2875,
+          "redirect_chain": [
+            "https://adscreativestudio.google.com",
+            "https://adscreativestudio.google.com/home"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "P3P": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+            "Strict-Transport-Security": "max-age=31536000; includeSubdomains",
+            "Content-Type": "text/html; charset=UTF-8",
+            "Date": "Sat, 30 May 2026 14:00:07 GMT",
+            "Expires": "Sat, 30 May 2026 14:00:07 GMT",
+            "Cache-Control": "private, max-age=0",
+            "Content-Security-Policy-Report-Only": "object-src 'none';base-uri 'self';script-src 'nonce-Y8KBkzn5yxt+cjYOP1QN' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http: 'report-sample';report-uri https://csp.withgoogle.com/csp/scfe",
+            "X-Content-Type-Options": "nosniff",
+            "Content-Encoding": "gzip",
+            "Server": "support-content-ui",
+            "X-XSS-Protection": "0",
+            "X-Frame-Options": "SAMEORIGIN",
+            "Set-Cookie": "NID=531=lQ5aW3pVpO-1tiBfUXR8WGlzumszCliB6M55axIfcrHlfmpwPRSIyAqwQKCoTuI7Gvj_l6-DUudWLTswTn5LhZ4Uc4yNMHD3flHZngK-E3oRHXp1FhXWEmDf3ljm2b48hq3HkJoTRVpixQImkh1E3s3lyjxs2_aCI7gTC9pOzk-NbA2_x5sNguBI4pw3y9swF6ZEcU8; expires=Sun, 29-Nov-2026 14:00:07 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://support.google.com/adscreativestudio/answer/15572845",
+      "best_status": 200,
+      "best_title": "",
+      "best_server": "support-content-ui"
+    },
+    {
+      "subdomain": "1.google.com",
+      "ip": "142.250.4.113",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://1.google.com",
+          "final_url": "https://one.google.com/about/",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "Get More Storage, More AI capabilities, and More Features - Google One",
+          "server": "sffe",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 2484,
+          "redirect_chain": [
+            "https://1.google.com",
+            "https://one.google.com/",
+            "https://one.google.com/about"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Accept-Ranges": "bytes",
+            "Vary": "Accept-Encoding",
+            "Content-Type": "text/html",
+            "Content-Security-Policy": "script-src 'sha256-BlI1iQLA1zwkKO9klMrp7NnhSNAg2PfHb03iBotBVXA=' 'nonce-oiSClcI3krGAd6K4XQ14Pw' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/subscriptions-infra-team; base-uri 'self'",
+            "Content-Security-Policy-Report-Only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/subscriptions-infra-team",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "Cross-Origin-Opener-Policy": "same-origin; report-to=\"subscriptions-infra-team\"",
+            "Report-To": "{\"group\":\"subscriptions-infra-team\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/subscriptions-infra-team\"}]}",
+            "Date": "Sat, 30 May 2026 14:00:09 GMT",
+            "Pragma": "no-cache",
+            "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+            "Cache-Control": "no-cache, must-revalidate",
+            "Last-Modified": "Fri, 29 May 2026 17:58:00 GMT",
+            "X-Content-Type-Options": "nosniff",
+            "Content-Encoding": "gzip",
+            "Server": "sffe",
+            "X-XSS-Protection": "0",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://one.google.com/about/",
+      "best_status": 200,
+      "best_title": "Get More Storage, More AI capabilities, and More Features - Google One",
+      "best_server": "sffe"
+    },
+    {
+      "subdomain": "ads-nightly.qa.adz.google.com",
+      "ip": "74.125.200.129",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://ads-nightly.qa.adz.google.com",
+          "final_url": "https://login.corp.google.com/request?authLevel=2000000&c=1&d=https://ads-nightly.qa.adz.google.com/?upxsrf%3DAM2vRLk31hFGfmyPeAOQ5UyF9Zm82Z-8QaYtGHI27jJogy_zfw%253A1780149608218&maxAge=1200&s=ads-nightly.qa.adz.google.com:443/uberproxy/",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "ads-nightly.qa.adz.google.com - Google Single Sign On: Sign into corp",
+          "server": "ESF",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 2375,
+          "redirect_chain": [
+            "https://ads-nightly.qa.adz.google.com"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Strict-Transport-Security": "max-age=7776000",
+            "Content-Security-Policy": "script-src 'report-sample' 'nonce-Q98I46zOPDb-j3l80zhQRg' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';worker-src 'self';report-uri https://csp.withgoogle.com/csp/corplogin/1",
+            "P3P": "CP=\"The P3P policy for this service is commensurate with internal security policy guidelines.\"",
+            "Set-Cookie": "S=sso=KGL_Uza2WqncfM48UjnKdDV3cJ7SFydv;Domain=.google.com;Path=/;Secure;HttpOnly;Priority=LOW",
+            "x-robots-tag": "noindex, nofollow",
+            "Cross-Origin-Opener-Policy": "unsafe-none",
+            "Content-Encoding": "gzip",
+            "Date": "Sat, 30 May 2026 14:00:10 GMT",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Content-Type-Options": "nosniff",
+            "Accept-CH": "Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64",
+            "Permissions-Policy": "ch-ua=*, ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-mobile=*, ch-ua-model=*, ch-ua-platform=*, ch-ua-platform-version=*, ch-ua-wow64=*",
+            "Expires": "Sat, 30 May 2026 14:00:10 GMT",
+            "Cache-Control": "private",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://login.corp.google.com/request?authLevel=2000000&c=1&d=https://ads-nightly.qa.adz.google.com/?upxsrf%3DAM2vRLk31hFGfmyPeAOQ5UyF9Zm82Z-8QaYtGHI27jJogy_zfw%253A1780149608218&maxAge=1200&s=ads-nightly.qa.adz.google.com:443/uberproxy/",
+      "best_status": 200,
+      "best_title": "ads-nightly.qa.adz.google.com - Google Single Sign On: Sign into corp",
+      "best_server": "ESF"
+    },
+    {
+      "subdomain": "aboutme.google.com",
+      "ip": "142.251.12.113",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://aboutme.google.com",
+          "final_url": "https://myaccount.google.com/intro/profile",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "About me",
+          "server": "ESF",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 1655,
+          "redirect_chain": [
+            "https://aboutme.google.com",
+            "https://myaccount.google.com/profile"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+            "x-ua-compatible": "IE=edge",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+            "Date": "Sat, 30 May 2026 14:00:08 GMT",
+            "Strict-Transport-Security": "max-age=31536000",
+            "Cross-Origin-Resource-Policy": "same-site",
+            "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+            "Accept-CH": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+            "Cross-Origin-Opener-Policy": "same-origin-allow-popups",
+            "Content-Security-Policy": "script-src 'report-sample' 'nonce-4LvRApgnq0kGYeGSrH0qpQ' 'unsafe-inline' 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /_/AccountSettingsUi/cspreport;worker-src 'self' blob:",
+            "Content-Security-Policy-Report-Only": "script-src 'unsafe-inline' 'unsafe-eval' blob: data: https://payments.google.com/payments/v4/js/integrator.js https://www-onepick-opensocial.googleusercontent.com/gadgets/js/rpc.js https://myaccount.google.com/idvp_worker.js https://dl.google.com/vision/ondevice-idvp/web/20250909/guidance_wasm_internal.js https://www.gstatic.com/_/mss/boq-one-google/_/ https://www.gstatic.com/og/_/js/ https://apis.google.com/js/api.js https://apis.google.com/js/client.js https://www.googletagmanager.com/gtag/js https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtag/destination https://maps.googleapis.com/maps/api/js https://www.google.com/tools/feedback/chat_load.js https://www.google.com/tools/feedback/help_api.js https://www.google.com/tools/feedback/load.js https://www.google.com/tools/feedback/open.js https://www.google.com/tools/feedback/open_to_help_guide_lazy.js https://www.gstatic.com/feedback/js/ https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js https://www.gstatic.com/inproduct_help/api/main.min.js https://www.gstatic.com/inproduct_help/chatsupport/chatsupport_button_v2.js https://www.gstatic.com/inproduct_help/service/lazy.min.js https://www.gstatic.com/uservoice/feedback/client/web/live/ https://www.gstatic.com/uservoice/surveys/resources/prod/js/survey/ https://www.google.com/js/bg/ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountSettingsUi.en_US.1rQpAngIPvo.2019.O/ https://apis.google.com/_/scs/abc-static/_/js/ https://maps.googleapis.com/maps-api-v3/api/js/ https://maps.googleapis.com/maps/vt https://maps.googleapis.com/maps/api/js/ https://maps.googleapis.com/maps/api/place/js/ https://payments.youtube.com/payments/v4/js/integrator.js https://payments.cloud.google/payments/v4/js/integrator.js;report-uri /_/AccountSettingsUi/cspreport/fine-allowlist",
+            "Link": "<https://myaccount.google.com/intro/profile>; rel=\"alternate\"; hreflang=\"x-default\", <https://myaccount.google.com/intro/profile?hl=en-US>; rel=\"alternate\"; hreflang=\"en-US\", <https://myaccount.google.com/intro/profile?hl=af>; rel=\"alternate\"; hreflang=\"af\", <https://myaccount.google.com/intro/profile?hl=am>; rel=\"alternate\"; hreflang=\"am\", <https://myaccount.google.com/intro/profile?hl=ar>; rel=\"alternate\"; hreflang=\"ar\", <https://myaccount.google.com/intro/profile?hl=as>; rel=\"alternate\"; hreflang=\"as\", <https://myaccount.google.com/intro/profile?hl=az>; rel=\"alternate\"; hreflang=\"az\", <https://myaccount.google.com/intro/profile?hl=be>; rel=\"alternate\"; hreflang=\"be\", <https://myaccount.google.com/intro/profile?hl=bg>; rel=\"alternate\"; hreflang=\"bg\", <https://myaccount.google.com/intro/profile?hl=bn>; rel=\"alternate\"; hreflang=\"bn\", <https://myaccount.google.com/intro/profile?hl=bs>; rel=\"alternate\"; hreflang=\"bs\", <https://myaccount.google.com/intro/profile?hl=ca>; rel=\"alternate\"; hreflang=\"ca\", <https://myaccount.google.com/intro/profile?hl=cs>; rel=\"alternate\"; hreflang=\"cs\", <https://myaccount.google.com/intro/profile?hl=cy>; rel=\"alternate\"; hreflang=\"cy\", <https://myaccount.google.com/intro/profile?hl=da>; rel=\"alternate\"; hreflang=\"da\", <https://myaccount.google.com/intro/profile?hl=de>; rel=\"alternate\"; hreflang=\"de\", <https://myaccount.google.com/intro/profile?hl=el>; rel=\"alternate\"; hreflang=\"el\", <https://myaccount.google.com/intro/profile?hl=en-GB>; rel=\"alternate\"; hreflang=\"en-GB\", <https://myaccount.google.com/intro/profile?hl=es-ES>; rel=\"alternate\"; hreflang=\"es-ES\", <https://myaccount.google.com/intro/profile?hl=es-419>; rel=\"alternate\"; hreflang=\"es-419\", <https://myaccount.google.com/intro/profile?hl=et>; rel=\"alternate\"; hreflang=\"et\", <https://myaccount.google.com/intro/profile?hl=eu>; rel=\"alternate\"; hreflang=\"eu\", <https://myaccount.google.com/intro/profile?hl=fa>; rel=\"alternate\"; hreflang=\"fa\", <https://myaccount.google.com/intro/profile?hl=fi>; rel=\"alternate\"; hreflang=\"fi\", <https://myaccount.google.com/intro/profile?hl=fil>; rel=\"alternate\"; hreflang=\"fil\", <https://myaccount.google.com/intro/profile?hl=fr-FR>; rel=\"alternate\"; hreflang=\"fr-FR\", <https://myaccount.google.com/intro/profile?hl=fr-CA>; rel=\"alternate\"; hreflang=\"fr-CA\", <https://myaccount.google.com/intro/profile?hl=ga>; rel=\"alternate\"; hreflang=\"ga\", <https://myaccount.google.com/intro/profile?hl=gl>; rel=\"alternate\"; hreflang=\"gl\", <https://myaccount.google.com/intro/profile?hl=gu>; rel=\"alternate\"; hreflang=\"gu\", <https://myaccount.google.com/intro/profile?hl=hi>; rel=\"alternate\"; hreflang=\"hi\", <https://myaccount.google.com/intro/profile?hl=hr>; rel=\"alternate\"; hreflang=\"hr\", <https://myaccount.google.com/intro/profile?hl=hu>; rel=\"alternate\"; hreflang=\"hu\", <https://myaccount.google.com/intro/profile?hl=hy>; rel=\"alternate\"; hreflang=\"hy\", <https://myaccount.google.com/intro/profile?hl=id>; rel=\"alternate\"; hreflang=\"id\", <https://myaccount.google.com/intro/profile?hl=is>; rel=\"alternate\"; hreflang=\"is\", <https://myaccount.google.com/intro/profile?hl=it>; rel=\"alternate\"; hreflang=\"it\", <https://myaccount.google.com/intro/profile?hl=iw>; rel=\"alternate\"; hreflang=\"iw\", <https://myaccount.google.com/intro/profile?hl=ja>; rel=\"alternate\"; hreflang=\"ja\", <https://myaccount.google.com/intro/profile?hl=ka>; rel=\"alternate\"; hreflang=\"ka\", <https://myaccount.google.com/intro/profile?hl=kk>; rel=\"alternate\"; hreflang=\"kk\", <https://myaccount.google.com/intro/profile?hl=km>; rel=\"alternate\"; hreflang=\"km\", <https://myaccount.google.com/intro/profile?hl=kn>; rel=\"alternate\"; hreflang=\"kn\", <https://myaccount.google.com/intro/profile?hl=ko>; rel=\"alternate\"; hreflang=\"ko\", <https://myaccount.google.com/intro/profile?hl=ky>; rel=\"alternate\"; hreflang=\"ky\", <https://myaccount.google.com/intro/profile?hl=lo>; rel=\"alternate\"; hreflang=\"lo\", <https://myaccount.google.com/intro/profile?hl=lt>; rel=\"alternate\"; hreflang=\"lt\", <https://myaccount.google.com/intro/profile?hl=lv>; rel=\"alternate\"; hreflang=\"lv\", <https://myaccount.google.com/intro/profile?hl=mk>; rel=\"alternate\"; hreflang=\"mk\", <https://myaccount.google.com/intro/profile?hl=ml>; rel=\"alternate\"; hreflang=\"ml\", <https://myaccount.google.com/intro/profile?hl=mn>; rel=\"alternate\"; hreflang=\"mn\", <https://myaccount.google.com/intro/profile?hl=mr>; rel=\"alternate\"; hreflang=\"mr\", <https://myaccount.google.com/intro/profile?hl=ms>; rel=\"alternate\"; hreflang=\"ms\", <https://myaccount.google.com/intro/profile?hl=my>; rel=\"alternate\"; hreflang=\"my\", <https://myaccount.google.com/intro/profile?hl=ne>; rel=\"alternate\"; hreflang=\"ne\", <https://myaccount.google.com/intro/profile?hl=nl>; rel=\"alternate\"; hreflang=\"nl\", <https://myaccount.google.com/intro/profile?hl=no>; rel=\"alternate\"; hreflang=\"no\", <https://myaccount.google.com/intro/profile?hl=or>; rel=\"alternate\"; hreflang=\"or\", <https://myaccount.google.com/intro/profile?hl=pa>; rel=\"alternate\"; hreflang=\"pa\", <https://myaccount.google.com/intro/profile?hl=pl>; rel=\"alternate\"; hreflang=\"pl\", <https://myaccount.google.com/intro/profile?hl=pt-BR>; rel=\"alternate\"; hreflang=\"pt-BR\", <https://myaccount.google.com/intro/profile?hl=pt-PT>; rel=\"alternate\"; hreflang=\"pt-PT\", <https://myaccount.google.com/intro/profile?hl=ro>; rel=\"alternate\"; hreflang=\"ro\", <https://myaccount.google.com/intro/profile?hl=ru>; rel=\"alternate\"; hreflang=\"ru\", <https://myaccount.google.com/intro/profile?hl=si>; rel=\"alternate\"; hreflang=\"si\", <https://myaccount.google.com/intro/profile?hl=sk>; rel=\"alternate\"; hreflang=\"sk\", <https://myaccount.google.com/intro/profile?hl=sl>; rel=\"alternate\"; hreflang=\"sl\", <https://myaccount.google.com/intro/profile?hl=sq>; rel=\"alternate\"; hreflang=\"sq\", <https://myaccount.google.com/intro/profile?hl=sr-Cyrl>; rel=\"alternate\"; hreflang=\"sr-Cyrl\", <https://myaccount.google.com/intro/profile?hl=sr-Latn>; rel=\"alternate\"; hreflang=\"sr-Latn\", <https://myaccount.google.com/intro/profile?hl=sv>; rel=\"alternate\"; hreflang=\"sv\", <https://myaccount.google.com/intro/profile?hl=sw>; rel=\"alternate\"; hreflang=\"sw\", <https://myaccount.google.com/intro/profile?hl=ta>; rel=\"alternate\"; hreflang=\"ta\", <https://myaccount.google.com/intro/profile?hl=te>; rel=\"alternate\"; hreflang=\"te\", <https://myaccount.google.com/intro/profile?hl=th>; rel=\"alternate\"; hreflang=\"th\", <https://myaccount.google.com/intro/profile?hl=tr>; rel=\"alternate\"; hreflang=\"tr\", <https://myaccount.google.com/intro/profile?hl=uk>; rel=\"alternate\"; hreflang=\"uk\", <https://myaccount.google.com/intro/profile?hl=ur>; rel=\"alternate\"; hreflang=\"ur\", <https://myaccount.google.com/intro/profile?hl=uz>; rel=\"alternate\"; hreflang=\"uz\", <https://myaccount.google.com/intro/profile?hl=vi>; rel=\"alternate\"; hreflang=\"vi\", <https://myaccount.google.com/intro/profile?hl=zh-CN>; rel=\"alternate\"; hreflang=\"zh-CN\", <https://myaccount.google.com/intro/profile?hl=zh-HK>; rel=\"alternate\"; hreflang=\"zh-HK\", <https://myaccount.google.com/intro/profile?hl=zh-TW>; rel=\"alternate\"; hreflang=\"zh-TW\", <https://myaccount.google.com/intro/profile?hl=zu>; rel=\"alternate\"; hreflang=\"zu\"",
+            "reporting-endpoints": "default=\"/_/AccountSettingsUi/web-reports?context=eJwNw39MlHUcB_Bn3_l5z5itcrXkYTGq0USLDoTTVQIFlnD33N33-TGnNq5Q0LPtjrjnUODCckoWc66ZYZt6lDrTHSNmWxApYhFEgzM44-45UZnBoZYu_3D-kdn3tb0yOrEsQ5auZ8vSkhdkac1SWZqpkKUPTsrS5TOyFP9elj68IEvzo7LUOyZLlRVZUsSfJWXu72PPHuxjdTU_sFPZ_axXjL3Yz9pa-lnZhiQb35xk02LJmSRzijOKxTJdFlsqJtosNj5oMSltsbaiFAt9lWJvvXqdPZM3yxZ0z7ICPsf-PTzHyh9Ns2tPp9mMN81W1adZTmeatfbMs3_CN1j-_hvMChyiPclx6hDHSmJ0Uewqj9FZT4zMr2PUJn4qHhZTwzEqyJmgcrFsxwSNSJPEhiapYUmcdovnnXHaezROOzdeouG-S3Qu7w8qbZ6irYEE3W1O0JMtCXrvQYKGXk_SE6eTFFlu0ZbWFE10pChyKEX63RSF76eoVVyee5mM9mnq-mKaen5_SEd-rkR4pBKzj1TheHUVJl92IOZx4LftDhyMOLD4tgMrhpw4OenEtjtOeJYpmHtJwb2ggoWmgu4WBesPKHhbvDCqQLG7EHrFhXC1C-3iGq8Lfz3mxh2xOMeNjFVubKtzY2bAjT_FCcuNBX-7Eb3txiB5MFDkQd16D4Y_8aDmKY7GIg77axxdqzmaqjg-Ek9t4HDUcewzOQYPcEx1cnz2E0dvkiP3Gkf0Hse34toHHPHVKnzrVPjFI7tUrIyqmO5RMTiqIn9MxZtTKrbOqtibpaFd7MvR8F2ehtOGhnM-DUdNDcfEeFTDzgENX1oa6v_TEBS3i81i40MN0UU6Ntp0VIs_2nXsfkfHx2J7vY4RcVS82aIjENbh7NBx9YSO0m4db4ilv-j4XHRlGuDiulwDFSUGsssMhHwGKncYiDQZeL7ZgO2YgRViz1kD8fPFmYsXLZy3bl3E499c2fMre66wJvC-17e51m_6zKZ3N20KhPxmsNY0ff4twZAvWNvQWNvgLbQV2m3Fhfb8gpXeetv_dfRKLg\"",
+            "Content-Encoding": "gzip",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Content-Type-Options": "nosniff",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://myaccount.google.com/intro/profile",
+      "best_status": 200,
+      "best_title": "About me",
+      "best_server": "ESF"
+    },
+    {
+      "subdomain": "account.google.com",
+      "ip": "142.250.4.101",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://account.google.com",
+          "final_url": "https://www.google.com/account/about/?hl=en-US",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "Learn More About Google's Secure and Protected Accounts - Google",
+          "server": "sffe",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 4609,
+          "redirect_chain": [
+            "https://account.google.com",
+            "https://myaccount.google.com/",
+            "https://myaccount.google.com/intro"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Accept-Ranges": "bytes",
+            "Vary": "Accept-Encoding",
+            "Content-Type": "text/html",
+            "Content-Security-Policy-Report-Only": "script-src  'nonce-6SwApF8AsMSZMr1S_6hRWA' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/www_google; base-uri 'none'",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "Cross-Origin-Opener-Policy-Report-Only": "same-origin; report-to=\"uxe-owners-acl/www_google\"",
+            "Report-To": "{\"group\":\"uxe-owners-acl/www_google\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/uxe-owners-acl/www_google\"}]}",
+            "Date": "Sat, 30 May 2026 14:00:10 GMT",
+            "Pragma": "no-cache",
+            "Expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+            "Cache-Control": "no-cache, must-revalidate",
+            "Last-Modified": "Tue, 23 Dec 2025 13:00:00 GMT",
+            "X-Content-Type-Options": "nosniff",
+            "Content-Encoding": "gzip",
+            "Server": "sffe",
+            "X-XSS-Protection": "0",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://www.google.com/account/about/?hl=en-US",
+      "best_status": 200,
+      "best_title": "Learn More About Google's Secure and Protected Accounts - Google",
+      "best_server": "sffe"
+    },
+    {
+      "subdomain": "www.adwords.google.com",
+      "ip": "74.125.200.102",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://www.adwords.google.com",
+          "final_url": "https://business.google.com/en-all/google-ads/",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "Reach Customers &amp; Sell More with Online Advertising - Google Ads",
+          "server": "ESF",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 2204,
+          "redirect_chain": [
+            "https://www.adwords.google.com",
+            "https://ads.google.com/intl/en_ID/home/"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+            "Date": "Sat, 30 May 2026 14:00:10 GMT",
+            "Strict-Transport-Security": "max-age=31536000",
+            "Accept-CH": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+            "Cross-Origin-Resource-Policy": "same-site",
+            "Content-Security-Policy-Report-Only": "require-trusted-types-for 'script';report-uri /en-all/_/GoogleAds/cspreport",
+            "Content-Security-Policy": "script-src 'report-sample' 'nonce-arxTOtMw4CgssYHc2ycQkQ' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri /en-all/_/GoogleAds/cspreport;worker-src blob: 'self'",
+            "Cross-Origin-Opener-Policy": "same-origin",
+            "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+            "reporting-endpoints": "default=\"/en-all/_/GoogleAds/web-reports?context=eJzj6mDU4pJicNWQYljneJl1PRBvBuKtQLwdiItdLrOWA3EVENcBcRMQtwHxo7TLrE-AmCX9MisHEPMAsQAQM2-8wtoocoe1GYg7gfhghy_bYSB26fRl8wBiHyAOAOIQIF6815_NNCSQzRmIt2gGswnxcLy69foCm8CLZXfnMinZJuUXxqfmpSemp-rmJhZlp5Zk5qXrJpaW5OcmlmTm5-mmVOYl5mYmJ-fnlaTmlcQbGRiZGZgamesZmMcXGAAAVptOLw\"",
+            "Content-Encoding": "gzip",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Content-Type-Options": "nosniff",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://business.google.com/en-all/google-ads/",
+      "best_status": 200,
+      "best_title": "Reach Customers &amp; Sell More with Online Advertising - Google Ads",
+      "best_server": "ESF"
+    },
+    {
+      "subdomain": "frame.ads-nightly.qa.adz.google.com",
+      "ip": "74.125.68.129",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://frame.ads-nightly.qa.adz.google.com",
+          "final_url": "https://login.corp.google.com/request?authLevel=2000000&c=1&d=https://frame.ads-nightly.qa.adz.google.com/?upxsrf%3DAM2vRLll1cf2T9eAGg9uojQFTCAq2oFnPnDWfPbs2TzWu2KkfA%253A1780149611061&maxAge=1200&s=frame.ads-nightly.qa.adz.google.com:443/uberproxy/",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "frame.ads-nightly.qa.adz.google.com - Google Single Sign On: Sign into corp",
+          "server": "ESF",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 1062,
+          "redirect_chain": [
+            "https://frame.ads-nightly.qa.adz.google.com"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Strict-Transport-Security": "max-age=7776000",
+            "Content-Security-Policy": "script-src 'report-sample' 'nonce-YwDqCiwFnBl_GH5Te4y5tQ' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';worker-src 'self';report-uri https://csp.withgoogle.com/csp/corplogin/1",
+            "P3P": "CP=\"The P3P policy for this service is commensurate with internal security policy guidelines.\"",
+            "Set-Cookie": "S=sso=n4sDkWFBFIOR2IslA1J8Gc74TD3NtJWy;Domain=.google.com;Path=/;Secure;HttpOnly;Priority=LOW",
+            "x-robots-tag": "noindex, nofollow",
+            "Cross-Origin-Opener-Policy": "unsafe-none",
+            "Content-Encoding": "gzip",
+            "Date": "Sat, 30 May 2026 14:00:11 GMT",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Content-Type-Options": "nosniff",
+            "Accept-CH": "Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64",
+            "Permissions-Policy": "ch-ua=*, ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-mobile=*, ch-ua-model=*, ch-ua-platform=*, ch-ua-platform-version=*, ch-ua-wow64=*",
+            "Expires": "Sat, 30 May 2026 14:00:11 GMT",
+            "Cache-Control": "private",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://login.corp.google.com/request?authLevel=2000000&c=1&d=https://frame.ads-nightly.qa.adz.google.com/?upxsrf%3DAM2vRLll1cf2T9eAGg9uojQFTCAq2oFnPnDWfPbs2TzWu2KkfA%253A1780149611061&maxAge=1200&s=frame.ads-nightly.qa.adz.google.com:443/uberproxy/",
+      "best_status": 200,
+      "best_title": "frame.ads-nightly.qa.adz.google.com - Google Single Sign On: Sign into corp",
+      "best_server": "ESF"
+    },
+    {
+      "subdomain": "frame.ads-devel.qa.adz.google.com",
+      "ip": "172.253.118.129",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://frame.ads-devel.qa.adz.google.com",
+          "final_url": "https://login.corp.google.com/request?authLevel=2000000&c=1&d=https://frame.ads-devel.qa.adz.google.com/?upxsrf%3DAM2vRLmDF_G8KDDcFSzakpmzr429vbCaJFPg1-HKCCvkxqxizw%253A1780149611071&maxAge=1200&s=frame.ads-devel.qa.adz.google.com:443/uberproxy/",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "frame.ads-devel.qa.adz.google.com - Google Single Sign On: Sign into corp",
+          "server": "ESF",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 1234,
+          "redirect_chain": [
+            "https://frame.ads-devel.qa.adz.google.com"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Strict-Transport-Security": "max-age=7776000",
+            "Content-Security-Policy": "script-src 'report-sample' 'nonce-fnZGi_BiDZ2IRQvu_mbzuA' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';worker-src 'self';report-uri https://csp.withgoogle.com/csp/corplogin/1",
+            "P3P": "CP=\"The P3P policy for this service is commensurate with internal security policy guidelines.\"",
+            "Set-Cookie": "S=sso=KxhvVkiPA8AgSUZ07Wi3aayGm0n0lynF;Domain=.google.com;Path=/;Secure;HttpOnly;Priority=LOW",
+            "x-robots-tag": "noindex, nofollow",
+            "Cross-Origin-Opener-Policy": "unsafe-none",
+            "Content-Encoding": "gzip",
+            "Date": "Sat, 30 May 2026 14:00:11 GMT",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Content-Type-Options": "nosniff",
+            "Accept-CH": "Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64",
+            "Permissions-Policy": "ch-ua=*, ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-mobile=*, ch-ua-model=*, ch-ua-platform=*, ch-ua-platform-version=*, ch-ua-wow64=*",
+            "Expires": "Sat, 30 May 2026 14:00:11 GMT",
+            "Cache-Control": "private",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://login.corp.google.com/request?authLevel=2000000&c=1&d=https://frame.ads-devel.qa.adz.google.com/?upxsrf%3DAM2vRLmDF_G8KDDcFSzakpmzr429vbCaJFPg1-HKCCvkxqxizw%253A1780149611071&maxAge=1200&s=frame.ads-devel.qa.adz.google.com:443/uberproxy/",
+      "best_status": 200,
+      "best_title": "frame.ads-devel.qa.adz.google.com - Google Single Sign On: Sign into corp",
+      "best_server": "ESF"
+    },
+    {
+      "subdomain": "www.ads.google.com",
+      "ip": "74.125.24.100",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://www.ads.google.com",
+          "final_url": "https://business.google.com/en-all/google-ads/",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "Reach Customers &amp; Sell More with Online Advertising - Google Ads",
+          "server": "ESF",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 1437,
+          "redirect_chain": [
+            "https://www.ads.google.com",
+            "https://ads.google.com/",
+            "https://ads.google.com/intl/en_ID/home/"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+            "Date": "Sat, 30 May 2026 14:00:11 GMT",
+            "Strict-Transport-Security": "max-age=31536000",
+            "Accept-CH": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+            "Cross-Origin-Resource-Policy": "same-site",
+            "Content-Security-Policy-Report-Only": "require-trusted-types-for 'script';report-uri /en-all/_/GoogleAds/cspreport",
+            "Content-Security-Policy": "script-src 'report-sample' 'nonce-HJfz-odnRYW-pgrn0OO9Zg' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri /en-all/_/GoogleAds/cspreport;worker-src blob: 'self'",
+            "Cross-Origin-Opener-Policy": "same-origin",
+            "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+            "reporting-endpoints": "default=\"/en-all/_/GoogleAds/web-reports?context=eJzj6mDU4pJicNWQYljneJl1PRBvBuKtQLwdiItdLrOWA3EVENcBcRMQtwHxo7TLrE-AmCX9MisHEPMAsQAQM2-8wtoocoe1GYg7gfhghy_bYSB26fRl8wBiHyAOAOIQIF6815_NNCSQzRmIt2gGswnxcLy-9foCm8CPq_M-MCrZJuUXxqfmpSemp-rmJhZlp5Zk5qXrJpaW5OcmlmTm5-mmVOYl5mYmJ-fnlaTmlcQbGRiZGZgamesZmMcXGAAAbAdOgg\"",
+            "Content-Encoding": "gzip",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Content-Type-Options": "nosniff",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://business.google.com/en-all/google-ads/",
+      "best_status": 200,
+      "best_title": "Reach Customers &amp; Sell More with Online Advertising - Google Ads",
+      "best_server": "ESF"
+    },
+    {
+      "subdomain": "adsdatahub.google.com",
+      "ip": "172.253.144.113",
+      "source": "bruteforce",
+      "probes": [
+        {
+          "url": "https://adsdatahub.google.com",
+          "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://adsdatahub.google.com/&dsh=S1930403922:1780149611998795&followup=https://adsdatahub.google.com/&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2PauJ0SpOvWetWFfISzUHAF99hOxiBpfe8gGMIz04IIiVklzKAm-a0dPkGwbWnNF2lfm8wzby",
+          "status_code": 200,
+          "risk_tag": "accessible",
+          "title": "Sign in - Google Accounts",
+          "server": "ESF",
+          "content_type": "text/html",
+          "x_powered_by": "",
+          "response_ms": 1655,
+          "redirect_chain": [
+            "https://adsdatahub.google.com",
+            "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://adsdatahub.google.com/&followup=https://adsdatahub.google.com/",
+            "https://accounts.google.com/InteractiveLogin?continue=https://adsdatahub.google.com/&followup=https://adsdatahub.google.com/&passive=1209600&dsh=S1930403922:1780149611998795"
+          ],
+          "redirected": true,
+          "content_length": "",
+          "headers": {
+            "Content-Type": "text/html; charset=utf-8",
+            "X-Frame-Options": "DENY",
+            "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+            "x-auto-login": "realm=com.google&args=continue%3Dhttps://adsdatahub.google.com/",
+            "x-ua-compatible": "IE=edge",
+            "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+            "Date": "Sat, 30 May 2026 14:00:12 GMT",
+            "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+            "Report-To": "{\"group\":\"AccountsSignInUi\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi\"}]}",
+            "Cross-Origin-Opener-Policy-Report-Only": "same-origin; report-to=\"AccountsSignInUi\"",
+            "Cross-Origin-Resource-Policy": "same-site",
+            "Accept-CH": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+            "Content-Security-Policy": "script-src 'report-sample' 'nonce-YFak1fMDlwPUx5mCIxHQ-g' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self'",
+            "Content-Security-Policy-Report-Only": "script-src 'unsafe-inline' 'unsafe-eval' blob: data: https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js https://translate.google.com/translate_a/element.js https://www.google.com/recaptcha/api.js https://www.google.com/recaptcha/enterprise.js https://www.gstatic.com/recaptcha/ https://www.google.com/tools/feedback/chat_load.js https://www.google.com/tools/feedback/help_api.js https://www.google.com/tools/feedback/load.js https://www.google.com/tools/feedback/open.js https://www.google.com/tools/feedback/open_to_help_guide_lazy.js https://www.gstatic.com/feedback/js/ https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js https://www.gstatic.com/inproduct_help/api/main.min.js https://www.gstatic.com/inproduct_help/chatsupport/chatsupport_button_v2.js https://www.gstatic.com/inproduct_help/service/lazy.min.js https://www.gstatic.com/uservoice/feedback/client/web/live/ https://www.gstatic.com/uservoice/surveys/resources/prod/js/survey/ https://www.gstatic.com/_/mss/boq-one-google/_/ https://www.gstatic.com/og/_/js/ https://apis.google.com/js/api.js https://apis.google.com/js/client.js https://www.googletagmanager.com/gtag/js https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtag/destination https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.5E-Cp8lktf4.es5.O/ https://apis.google.com/_/scs/abc-static/_/js/ https://translate.googleapis.com/_/translate_http/_/js/ https://www.gstatic.com/recaptcha/releases/;report-uri /v3/signin/_/AccountsSignInUi/cspreport/fine-allowlist",
+            "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+            "reporting-endpoints": "default=\"/v3/signin/_/AccountsSignInUi/web-reports?context=eJwNyk9IU3EAB_Ax9vtSWiRqNXaIGEQtmM2BK6gOI0RWb9t7vffwEDGdm7iQzbY3ySzS_h2EDKUp7FJEUBkVRP_Igx2SHGGZTprrz6l_MqOMkg6L-h4-t0_FJcv2CpupcZvN9NT-xOw9_NHcSCNrFs1ZOrfwUmTIuPpKnKUBytLesRnhpY6W16KT6jfPCi8lsrMiRVLznJBpqDYvMpS05sVpcuzKCyeFr8yLdnrmKIgp-nm8IKp7C2LfSkE00YbiW2GjXP6dmCbT1vfCQuU-H0z9PnxtOoAluu-U8Jiuz0kY_ixhhBx1fjhpJeUHDD9K5wP4TrcyAdylnUNB7KY7D4O4R5ZvQdgUGZtoCznITR5qOSIjQjfPyLhNRfpA8UcykjT5RkaOnpdlvKDJTgU5ujao4AYlJhSk6GRJQT-te3AQNfRjvYpfVGVVUUvDdhWjtOxR8Zv271ERoDFdxadWFYv0h8pUE1axkZYv8NKXvypK1P1PxepKDWtp3qphgcZ9GiaoK6TBoF46RYkTGpoHNRwiaVRDOqbDd0zH5R4dA9M6qitXLRVLM6jqu5hrs-8IJ46GYpFo3IgZPe3JRNyIxiOtaaMjHUtFk93RZMjtcntcDW5Pnash1FX_H-Ss2X0\"",
+            "Content-Encoding": "gzip",
+            "Server": "ESF",
+            "X-XSS-Protection": "0",
+            "X-Content-Type-Options": "nosniff",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "Transfer-Encoding": "chunked"
+          }
+        }
+      ],
+      "live": true,
+      "best_url": "https://accounts.google.com/v3/signin/identifier?continue=https://adsdatahub.google.com/&dsh=S1930403922:1780149611998795&followup=https://adsdatahub.google.com/&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2PauJ0SpOvWetWFfISzUHAF99hOxiBpfe8gGMIz04IIiVklzKAm-a0dPkGwbWnNF2lfm8wzby",
+      "best_status": 200,
+      "best_title": "Sign in - Google Accounts",
+      "best_server": "ESF"
+    },
+    {
+      "subdomain": "adssettings.google.com",
+      "ip": "142.250.4.139",
+      "source": "bruteforce",
+      "probes": [],
+      "live": false,
+      "best_url": null,
+      "best_status": null
+    },
+    {
+      "subdomain": "216-239-45-8.google.com",
+      "ip": "216.239.45.8",
+      "source": "bruteforce",
+      "probes": [],
+      "live": false,
+      "best_url": null,
+      "best_status": null
+    },
+    {
+      "subdomain": "216-239-45-63.google.com",
+      "ip": "216.239.45.63",
+      "source": "bruteforce",
+      "probes": [],
+      "live": false,
+      "best_url": null,
+      "best_status": null
+    },
+    {
+      "subdomain": "216-239-45-32.google.com",
+      "ip": "216.239.45.32",
+      "source": "bruteforce",
+      "probes": [],
+      "live": false,
+      "best_url": null,
+      "best_status": null
+    },
+    {
+      "subdomain": "216-239-45-6.google.com",
+      "ip": "216.239.45.6",
+      "source": "bruteforce",
+      "probes": [],
+      "live": false,
+      "best_url": null,
+      "best_status": null
+    },
+    {
+      "subdomain": "216-239-45-4.google.com",
+      "ip": "216.239.45.4",
+      "source": "bruteforce",
+      "probes": [],
+      "live": false,
+      "best_url": null,
+      "best_status": null
+    },
+    {
+      "subdomain": "216-239-45-10.google.com",
+      "ip": "216.239.45.10",
+      "source": "bruteforce",
+      "probes": [],
+      "live": false,
+      "best_url": null,
+      "best_status": null
+    },
+    {
+      "subdomain": "66-102-14-1.google.com",
+      "ip": "66.102.14.1",
+      "source": "bruteforce",
+      "probes": [],
+      "live": false,
+      "best_url": null,
+      "best_status": null
+    },
+    {
+      "subdomain": "216-239-33-25.google.com",
+      "ip": "216.239.33.25",
+      "source": "bruteforce",
+      "probes": [],
+      "live": false,
+      "best_url": null,
+      "best_status": null
+    },
+    {
+      "subdomain": "216-239-45-33.google.com",
+      "ip": "216.239.45.33",
+      "source": "bruteforce",
+      "probes": [],
+      "live": false,
+      "best_url": null,
+      "best_status": null
+    },
+    {
+      "subdomain": "216-239-45-36.google.com",
+      "ip": "216.239.45.36",
+      "source": "bruteforce",
+      "probes": [],
+      "live": false,
+      "best_url": null,
+      "best_status": null
+    }
+  ]
+}
