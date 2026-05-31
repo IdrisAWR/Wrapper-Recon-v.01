@@ -21,24 +21,6 @@
 
 ---
 
-## 📁 Struktur Project
-
-```
-NyobaBuatTools/
-├── recon.py                    # Entry point utama (CLI)
-├── requirements.txt            # Dependensi Python
-├── wordlist_example.txt        # Contoh custom wordlist
-└── recon_wrapper/
-    ├── __init__.py
-    ├── config.py               # Konfigurasi & konstanta
-    ├── logger.py               # Rich-based logger
-    ├── enumerator.py           # Subdomain enumerator (3 sumber)
-    ├── prober.py               # HTTP prober async
-    └── reporter.py             # JSON + text report generator
-```
-
----
-
 ## 🛠️ Instalasi
 
 ```bash
