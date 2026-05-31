@@ -42,8 +42,8 @@ NyobaBuatTools/
 ## 🛠️ Instalasi
 
 ```bash
-# 1. Clone / masuk ke folder project
-cd "d:\Coba Project\NyobaBuatTools"
+# 1. Clone folder project
+git clone https://github.com/IdrisAWR/Wrapper-Recon-v.01.git
 
 # 2. Install dependensi
 pip install -r requirements.txt
